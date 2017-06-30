@@ -1,0 +1,17 @@
+mixin subscribe-footer(data)
+  .subscribe-footer
+    .subscribe-footer__title You've made it this far... Why not sign up for our
+      span Newsletter
+
+    form(method="" action="").subscribe-footer-form
+      +form-field('E-mail', 'email')._subscribe
+      input(type="submit" value="Subscribe me").subscribe-footer-form__submit
+
+mixin subscribe-sidebar(data)
+  .subscribe-sidebar
+    .subscribe-sidebar__title You've made it this far... Why not sign up for our
+      span Newsletter
+
+    form(method="" action="").subscribe-sidebar-form
+      +form-field('E-mail', 'email')._iconed._email._subscribe
+      input(type="submit" value="Sign Up").subscribe-sidebar-form__submit

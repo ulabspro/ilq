@@ -1,0 +1,8 @@
+@include font-face(OpenSans-Regular, "../fonts/OpenSans-Regular");
+$Regular: 'OpenSans-Regular', Helvetica, Arial, sans-serif;
+
+@include font-face(OpenSans-Bold, "../fonts/OpenSans-Bold");
+$Bold: 'OpenSans-Bold', Helvetica, Arial, sans-serif;
+
+@include font-face(OpenSans-Italic, "../fonts/OpenSans-Italic");
+$Italic: 'OpenSans-Italic', Helvetica, Arial, sans-serif;

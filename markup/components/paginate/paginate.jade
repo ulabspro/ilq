@@ -1,0 +1,10 @@
+mixin paginate(data)
+  - var modiffer = attributes.class || ''
+  .paginate(class="#{modiffer}")
+    .paginate-buttons
+      a(href="#" title="").paginate-buttons__item._prev Prev
+      a(href="#" title="").paginate-buttons__item._next Next
+    .paginate-pages
+      .paginate-pages__title Page
+      input(type="text" value="1").paginate-pages__field
+      .paginate-pages__subtitle of 268

@@ -1,0 +1,29 @@
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: 0;
+
+  @include transition;
+  &._rose {
+    color: $white;
+    background-color: $rose;
+    &:hover {
+      background-color: $rose + #111;
+    }
+  }
+  &._light-rose {
+    color: $white;
+    background-color: $light-rose;
+    &:hover {
+      background-color: $light-rose + #111;
+    }
+  }
+  &._violet {
+    color: $white;
+    background-color: $violet;
+    &:hover {
+      background-color: $violet + #111;
+    }
+  }
+}

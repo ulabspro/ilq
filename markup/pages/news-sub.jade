@@ -1,0 +1,19 @@
+extends ./layout.jade
+
+block variables
+  - var page = 'news'
+
+block header
+  +header._news
+
+block content
+  .page._inside
+    +top-baner-full
+    +top-full('news')
+    .page__layout
+      .page__content
+        +news-articles
+      .page__sidebar
+        +sidebar
+    +paginate._news
+    +bottom-baner-full

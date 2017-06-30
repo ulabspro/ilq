@@ -1,0 +1,22 @@
+.top-baner-right {
+  position: relative;
+  &__content {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+  }
+  &__button {
+    font-size: rem-calc(14);
+    line-height: 45px;
+
+    display: block;
+
+    width: 110px;
+    height: 45px;
+
+    text-align: center;
+
+    @extend .button;
+    @extend .button._light-rose;
+  }
+}

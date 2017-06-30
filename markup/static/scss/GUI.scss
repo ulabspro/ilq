@@ -1,0 +1,38 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+
+.wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.page {
+  padding: 15px 0;
+
+  background-color: $white;
+
+  @extend .wrapper;
+  &._inside {
+    margin-top: 50px;
+  }
+  &__layout {
+    display: flex;
+
+    padding-right: 25px;
+    padding-left: 25px;
+
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__content {
+    width: 100%;
+    max-width: 820px;
+  }
+  &__sidebar {
+    width: 100%;
+    max-width: 300px;
+    padding-top: 25px;
+  }
+}

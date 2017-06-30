@@ -1,0 +1,11 @@
+// Common styles of the project
+
+html,
+body {
+  font-family: $Regular;
+
+  height: 100%;
+
+  background: #d6d6d6 url(%=static=%general/bg.png);
+  background-size: 10%;
+}

@@ -1,0 +1,9 @@
+mixin news-block(category)
+  .news-block
+    .news-block__category=category
+    .news-block__image
+      img(src="http://via.placeholder.com/264x150&text=BANNER")
+
+    .news-block__list
+      - for (var i = 0; i < 4; i++)
+        a(href="#" title="").news-block__link Some news title or not title

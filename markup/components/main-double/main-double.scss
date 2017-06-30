@@ -1,0 +1,1 @@
+.main-double {  display: flex;  padding: 15px 25px;  justify-content: space-between;  align-items: stretch;  &__left {    width: 100%;    max-width: 685px;  }  &__right {    width: 100%;    max-width: 450px;  }}

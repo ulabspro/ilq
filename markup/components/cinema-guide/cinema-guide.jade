@@ -1,0 +1,30 @@
+mixin cinema-guide(data)
+  .cinema-guide.tabs.jsTabs
+    .cinema-guide-top
+      .cinema-guide-top__title Cinema Guide
+
+      .cinema-guide-top-controls.tabs-control.jsTabsControl
+        .cinema-guide-top-controls__item._active(data-tab) All
+        .cinema-guide-top-controls__item(data-tab) Cinemas
+        .cinema-guide-top-controls__item(data-tab) Showtime
+        .cinema-guide-top-controls__item(data-tab) Tickets
+        .cinema-guide-top-controls__item(data-tab) Trailers
+        .cinema-guide-top-controls__item(data-tab) Coming soon
+        .cinema-guide-top-controls__item(data-tab) Reviews
+
+    .cinema-guide-content.tabs-content.jsTabsContent
+      .cinema-guide-content__layout(data-tabcontent)._active
+        .cinema-guide-content__item
+          +video-block-overlay
+        .cinema-guide-content__list
+          +video-row
+          +video-row
+          +video-row
+      - for (var i = 0; i < 6; i++)
+        .cinema-guide-content__layout(data-tabcontent)
+          .cinema-guide-content__item
+            +video-block-overlay
+          .cinema-guide-content__list
+            +video-row
+            +video-row
+            +video-row

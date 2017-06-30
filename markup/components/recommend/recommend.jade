@@ -1,0 +1,59 @@
+mixin recommend(data)
+  .recommend.tabs.jsTabs
+    .recommend__title We recommend
+
+    .recommend-controls.tabs-control.jsTabsControl
+      .recommend-controls__item._active(data-tab) News
+      .recommend-controls__item(data-tab) Events
+      .recommend-controls__item(data-tab) Videos
+
+    .recommend-content.tabs-content.jsTabsContent
+      .recommend-content__item(data-tabcontent)._active
+        .recommend-block
+          .recommend-block__image
+            img(src="http://via.placeholder.com/80x60&text=Preview")
+          .recommend-block__content
+            a(href="#" title="").recommend-block__title Emir firm on maintaining standard
+
+            .recommend-block__date 24 March 2017
+
+        .recommend-block
+          .recommend-block__image
+            img(src="http://via.placeholder.com/80x60&text=Preview")
+          .recommend-block__content
+            a(href="#" title="").recommend-block__title Emir firm on maintaining standard
+
+            .recommend-block__date 24 March 2017
+
+        .recommend-block
+          .recommend-block__image
+            img(src="http://via.placeholder.com/80x60&text=Preview")
+          .recommend-block__content
+            a(href="#" title="").recommend-block__title Emir firm on maintaining standard
+
+            .recommend-block__date 24 March 2017
+      - for (var i = 0; i < 2; i++)
+        .recommend-content__item(data-tabcontent)
+          .recommend-block
+            .recommend-block__image
+              img(src="http://via.placeholder.com/80x60&text=Preview")
+            .recommend-block__content
+              a(href="#" title="").recommend-block__title Emir firm on maintaining standard
+
+              .recommend-block__date 24 March 2017
+
+          .recommend-block
+            .recommend-block__image
+              img(src="http://via.placeholder.com/80x60&text=Preview")
+            .recommend-block__content
+              a(href="#" title="").recommend-block__title Emir firm on maintaining standard
+
+              .recommend-block__date 24 March 2017
+
+          .recommend-block
+            .recommend-block__image
+              img(src="http://via.placeholder.com/80x60&text=Preview")
+            .recommend-block__content
+              a(href="#" title="").recommend-block__title Emir firm on maintaining standard
+
+              .recommend-block__date 24 March 2017

@@ -1,0 +1,38 @@
+.subscribe-footer {
+  margin-bottom: 30px;
+  &__title {
+    font-size: rem-calc(21);
+
+    margin-bottom: 20px;
+
+    color: rgba($white, .9);
+    span {
+      font-family: $Bold;
+
+      padding-left: 5px;
+
+      text-transform: uppercase;
+
+      color: $light-rose;
+    }
+  }
+}
+
+.subscribe-footer-form {
+  display: flex;
+
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+
+  justify-content: center;
+  align-items: stretch;
+  &__submit {
+    font-size: rem-calc(16);
+
+    width: 30%;
+
+    @extend .button;
+    @extend .button._light-rose;
+  }
+}

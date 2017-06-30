@@ -1,0 +1,21 @@
+mixin article-block(data)
+  - var modiffer = attributes.class || ''
+  .article-block(class="#{modiffer}")
+    .article-block__image
+      img(src="http://via.placeholder.com/300x190&text=ArticleImagePreview")
+    .article-block__content
+      .article-block-bread
+        a(href="#" title="").article-block-bread__item=data.paginate.start
+        a(href="#" title="").article-block-bread__item=data.paginate.end
+      a(href="#" title="").article-block__title=data.title
+
+      .article-block__text=data.text
+
+      .article-block-meta
+        .article-block-meta-author
+          .article-block-meta-author__avatar
+            img(src="http://via.placeholder.com/20x20&text=Ava")
+          .article-block-meta-author__name By Daisy
+        .article-block-meta__item._date 24 March 2017
+        .article-block-meta__item._views 1250
+        .article-block-meta__item._shares 956

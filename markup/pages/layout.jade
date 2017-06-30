@@ -1,0 +1,45 @@
+doctype html
+html(class="no-js", lang="ru")
+
+  include ../components/head/head
+  include ../components/header/header
+  include ../components/sidebar/sidebar
+  include ../components/advertise/advertise
+  include ../components/top-user/top-user
+  include ../components/gui-form/gui-form
+  include ../components/top-menu/top-menu
+  include ../components/search/search
+  include ../components/main-double/main-double
+  include ../components/top-slider/top-slider
+  include ../components/videos-main/videos-main
+  include ../components/video-block/video-block
+  include ../components/article-block/article-block
+  include ../components/main-articles/main-articles
+  include ../components/weather/weather
+  include ../components/subscribe/subscribe
+  include ../components/stay-connected/stay-connected
+  include ../components/recommend/recommend
+  include ../components/paginate/paginate
+  include ../components/top-full/top-full
+  include ../components/cinema-guide/cinema-guide
+  include ../components/video-row/video-row
+  include ../components/events-articles/events-articles
+  include ../components/news-block/news-block
+  include ../components/top-news/top-news
+  include ../components/news-articles/news-articles
+  include ../components/footer/footer
+
+  head
+    +head(head.defaults)
+  body
+    block variables
+      - var page = 'home'
+    block header
+      +header
+    block content
+      h1 Hello, I'm Layout!
+    block footer
+      +footer()
+
+    //- Main scripts. You can replace it, but I recommend you to leave it here
+    script(src='%=static=%js/main%=hash=%%=min=%.js')

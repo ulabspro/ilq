@@ -1,0 +1,21 @@
+mixin sidebar(data)
+  aside.sidebar
+    .sidebar__widget
+      .sidebar-submit
+        a(href="#" title="").sidebar-submit__item._news Add News
+        a(href="#" title="").sidebar-submit__item._events Add Event
+    
+    .sidebar__widget
+      +sidebar-baner
+
+    .sidebar__widget
+      +subscribe-sidebar
+
+    .sidebar__widget
+      +stay-connected
+
+    .sidebar__widget
+      +recommend
+
+    .sidebar__widget
+      +sidebar-baner-small

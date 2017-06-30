@@ -1,0 +1,17 @@
+extends ./layout.jade
+
+block header
+  +header._home
+
+block content
+  .page._home
+    +top-baner-full
+    +main-double
+    +videos-main
+    .page__layout
+      .page__content
+        +main-articles
+      .page__sidebar
+        +sidebar
+    +paginate
+    +bottom-baner-full

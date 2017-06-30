@@ -1,0 +1,25 @@
+mixin top-menu(data)
+  - var active = ''
+  .top-menu
+    .top-menu__mobile
+    .top-menu__list
+      - if (page != 'home') {
+        a(href="/" title="Home").top-menu__item._home
+      - }
+      for menuItem in topMenu
+        - if (menuItem.page == page) {
+          - var active = '_active'
+          .top-menu__item(class="#{active} #{menuItem.modiffer}")
+            a(href="#{menuItem.slug}" title="#{menuItem.title}" class="#{menuItem.modiffer}").top-menu__link=menuItem.title
+            .top-menu-sublist(class="#{active} #{menuItem.modiffer}")
+              .top-menu-sublist__wrapper
+                for subMenuItem in menuItem.sublist.items
+                  a(href="#" title="").top-menu-sublist__item=subMenuItem
+        - } else {
+          .top-menu__item
+            a(href="#{menuItem.slug}" title="#{menuItem.title}" class="#{menuItem.modiffer}").top-menu__link=menuItem.title
+            .top-menu-sublist(class="#{menuItem.modiffer}")
+              .top-menu-sublist__wrapper
+                for subMenuItem in menuItem.sublist.items
+                  a(href="#" title="#{subMenuItem}").top-menu-sublist__item=subMenuItem
+        - }

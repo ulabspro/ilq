@@ -1,0 +1,35 @@
+mixin videos-main(data)
+  .videos-main.tabs.jsTabs
+    .videos-main-top
+      .videos-main-top__title Videos
+      .videos-main-top-controls.tabs-control.jsTabsControl
+        .videos-main-top-controls__item._active(data-tab) Featured
+        .videos-main-top-controls__item(data-tab) QTIPS
+        .videos-main-top-controls__item(data-tab) MR Q
+        .videos-main-top-controls__item(data-tab) EVENTS
+        .videos-main-top-controls__item(data-tab) KARAK TIME
+        .videos-main-top-controls__item(data-tab) CAUSES
+        .videos-main-top-controls__item(data-tab) PROJECTS
+        .videos-main-top-controls__item(data-tab) CELEBRITIES
+        .videos-main-top-controls__item(data-tab) GUIDE
+        .videos-main-top-controls__item(data-tab) KLMAT RAS
+        .videos-main-top-controls__item(data-tab) ILQ TEST DRIVE
+
+    .videos-main-content.tabs-content.jsTabsContent
+      .videos-main-content__layout(data-tabcontent)._active
+        .videos-main-content__item
+          +video-block-overlay
+        .videos-main-content__item
+          +video-block-overlay
+        .videos-main-content__item
+          +video-block-overlay
+        .videos-main-content__more View More
+      - for (var i = 0; i < 10; i++)
+        .videos-main-content__layout(data-tabcontent)
+          .videos-main-content__item
+            +video-block-overlay
+          .videos-main-content__item
+            +video-block-overlay
+          .videos-main-content__item
+            +video-block-overlay
+          .videos-main-content__more View More

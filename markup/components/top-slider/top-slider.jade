@@ -1,0 +1,21 @@
+mixin top-slider(data)
+  - var modiffer = attributes.class || ''
+  .top-slider.jsTopSlider(class="#{modiffer} _#{data.page}")
+    - for (var i = 0; i < 5; i++)
+      .top-slider__item
+        .top-slider-content
+          .top-slider-content__layout
+            .top-slider-content__category=data.category
+            a(href="#" title="").top-slider-content__title=data.title
+            .top-slider-content__text=data.text
+            - if (data.page == 'events')
+              .top-slider-content-event
+                .top-slider-content-event__item._place Doha Exhibition and Convention Center, Doha
+                .top-slider-content-event__item._date 18-22 May
+                .top-slider-content-event__item._time 12:00
+          .top-slider-controls
+            .top-slider-controls__item._left.jsTopSliderLeft
+            .top-slider-controls__count.jsTopSliderStatus 1 of 5
+            .top-slider-controls__item._right.jsTopSliderRight
+        .top-slider__image
+          img(src="#{data.img}" alt="#{data.title}")

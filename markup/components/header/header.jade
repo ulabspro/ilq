@@ -1,0 +1,12 @@
+mixin header(data)
+  - var modiffer = attributes.class || ''
+  .header(class="#{modiffer}")
+    .header__wrapper
+      .header__row._top
+        a(href="#" title="").logo
+          img(src="%=static=%images/content/logo.png" alt="")
+        +join-team
+        +top-user
+      .header__row._bottom
+        +top-menu
+        +search
