@@ -8,3 +8,20 @@ mixin paginate(data)
       .paginate-pages__title Page
       input(type="text" value="1").paginate-pages__field
       .paginate-pages__subtitle of 268
+
+mixin paginate-second(data)
+  - var modiffer = attributes.class || ''
+  .paginate(class="#{modiffer}")
+    .paginate__list
+      a(href="#" title="").paginate__item._prev 
+      a(href="#" title="").paginate__item 1
+      a(href="#" title="").paginate__item 2
+      a(href="#" title="").paginate__item._active 3
+      a(href="#" title="").paginate__item ...
+      a(href="#" title="").paginate__item 8
+      a(href="#" title="").paginate__item 9
+      a(href="#" title="").paginate__item._next 
+    //- .paginate-pages
+    //-   .paginate-pages__title Page
+    //-   input(type="text" value="1").paginate-pages__field
+    //-   .paginate-pages__subtitle of 268

@@ -1,4 +1,14 @@
-mixin form-field(placeholder, type)
+mixin form-field(placeholder, type, hasError)
   - var modiffer = attributes.class || ''
   .form-field(class="#{modiffer}")
     input(type="#{type}" value="" placeholder="#{placeholder}" class="#{modiffer}").form-field__item
+    - if (hasError)
+      .form-field__error!=hasError
+
+mixin form-select(placeholder, list)
+  - var modiffer = attributes.class || ''
+  .form-select(class="#{modiffer}")
+    select.form-select__list(class="#{modiffer}")
+      option=placeholder
+      for item in list
+        option=item

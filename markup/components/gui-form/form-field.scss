@@ -13,6 +13,23 @@
       @extend .fa;
     }
   }
+  &._modal-iconed {
+    margin-bottom: 12px;
+    &:before {
+      font-size: rem-calc(13);
+
+      position: absolute;
+
+      color: #a2a4a2;
+
+      @extend .fa;
+    }
+  }
+  &._error {
+    &:before {
+      color: $rose;
+    }
+  }
   &._username {
     &:before {
       top: 8px;
@@ -45,6 +62,38 @@
       font-size: rem-calc(13);
     }
   }
+  &._modal-username {
+    &:before {
+      top: 16px;
+      left: 17px;
+
+      @extend .fa-user;
+    }
+  }
+  &._modal-email {
+    &:before {
+      top: 16px;
+      left: 16px;
+
+      @extend .fa-envelope;
+    }
+  }
+  &._modal-password {
+    &:before {
+      top: 17px;
+      left: 18px;
+
+      @extend .fa-lock;
+    }
+  }
+  &._modal-phone {
+    &:before {
+      top: 17px;
+      left: 18px;
+
+      @extend .fa-phone;
+    }
+  }
   &__item {
     font-size: rem-calc(14);
 
@@ -55,6 +104,31 @@
     border: 1px solid #c8c8c8;
     &._iconed {
       padding-left: 25px;
+    }
+    &._modal-iconed {
+      height: 45px;
+      padding-left: 40px;
+    }
+    &._error {
+      color: $rose;
+      border: 1px solid $rose;
+    }
+  }
+  &__error {
+    font-size: rem-calc(14);
+
+    padding-top: 5px;
+
+    color: $rose;
+    a {
+      font-family: $Bold;
+
+      display: block;
+
+      color: $rose;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }

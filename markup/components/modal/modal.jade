@@ -1,0 +1,30 @@
+mixin modal-registration(data)
+  .modal._registration#registration
+    .modal__title Register
+    .modal__close.jsModalClose
+    form(method="" action="").form
+      +form-field('Username', 'text', 'Username is already taken')._modal-iconed._modal-username._error
+      +form-field('Email', 'email', 'This e-mail was already used for registration <a href=\"#\" title=\"\">Restore account</a>')._modal-iconed._modal-email._error
+      +form-field('Password', 'password')._modal-iconed._modal-password
+      +form-field('Confirm password', 'password')._modal-iconed._modal-password
+      +form-field('Mobile number (optional)', 'text')._modal-iconed._modal-phone
+      +form-select('Choose your time zone', ['+5'])._modal-iconed._modal-timezone
+      .form-recaptcha.
+        <div class="g-recaptcha" data-sitekey="6Le8wCkUAAAAAOqCRmwJj9a73Fez2q_I0G-qI89o"></div>
+      .form-privacy By pressing the "Join" button you are agreeing to out company's <a href="#" title="">Privacy policy</a> and <a href="#" title="">Terms of use</a>
+      input(type="submit" value="Join").form-submit._modal-join
+      .form-social
+        .form-social__title Or Sign Up with
+        a(href="#" title="").form-social__button._fb Facebook
+        a(href="#" title="").form-social__button._gp Google+
+        a(href="#" title="").form-social__button._tw Twitter
+
+mixin modal-welcome(data)
+  .modal._welcome#welcome
+    .modal__title Welcome to
+    .modal__close
+    .modal-welcome__inside
+      img(src="%=static=%images/assets/modal/logo-modal.png" alt="")
+      p You have successfully registered your account!
+      span Please confirm your e-mail address by clicking on the URL sent to you.
+      em The e-mail usually arrives in 5-10 minutes. <br> If you still haven't received the e-mail, press <a href="#" title="">here</a> to re-send.

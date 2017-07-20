@@ -27,6 +27,7 @@ html(class="no-js", lang="ru")
   include ../components/news-block/news-block
   include ../components/top-news/top-news
   include ../components/news-articles/news-articles
+  include ../components/modal/modal
   include ../components/footer/footer
 
   head
@@ -40,6 +41,9 @@ html(class="no-js", lang="ru")
       h1 Hello, I'm Layout!
     block footer
       +footer()
-
+    block modals
+      +modal-registration
+      +modal-welcome
+      .mask
     //- Main scripts. You can replace it, but I recommend you to leave it here
     script(src='%=static=%js/main%=hash=%%=min=%.js')

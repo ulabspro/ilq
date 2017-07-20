@@ -12,3 +12,8 @@ window.onload = function(){
   document.getElementById('googleSearch').placeholder = 'Search';
   document.getElementById('googleSearch').style='';
 };
+
+document.getElementById('googleSearch').onblur = function() {
+  this.placeholder = 'Search';
+  this.style = '';
+};

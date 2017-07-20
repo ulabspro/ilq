@@ -27,3 +27,19 @@
     }
   }
 }
+
+.form-submit {
+  font-size: rem-calc(18);
+
+  text-transform: uppercase;
+
+  @extend .button;
+  @extend .button._rose;
+  &._modal-join {
+    display: block;
+
+    width: 160px;
+    height: 45px;
+    margin: 20px auto;
+  }
+}

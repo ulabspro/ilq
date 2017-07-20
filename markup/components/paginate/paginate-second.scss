@@ -1,0 +1,43 @@
+.paginate {
+  &__list {
+    display: flex;
+
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+  }
+  &__item {
+    font-size: rem-calc(18);
+    line-height: 50px;
+
+    width: 50px;
+    height: 50px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: $rose;
+    &._active {
+      @extend .button;
+      @extend .button._rose;
+    }
+    &._next,
+    &._prev {
+      width: 80px;
+      &:before {
+        @extend .fa;
+      }
+    }
+    &._prev {
+      &:before {
+        @extend .fa-long-arrow-left;
+      }
+    }
+    &._next {
+      &:before {
+        @extend .fa-long-arrow-right;
+      }
+    }
+  }
+}

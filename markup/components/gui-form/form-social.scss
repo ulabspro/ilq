@@ -1,0 +1,71 @@
+.form-social {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  &__title {
+    font-size: rem-calc(14);
+
+    width: 100%;
+    margin-bottom: 15px;
+
+    text-align: center;
+
+    color: #a1a1a1;
+  }
+  &__button {
+    font-size: rem-calc(14);
+
+    position: relative;
+
+    box-sizing: border-box;
+    width: 30%;
+    margin: 0 5px;
+    padding: 3px 7px 4px 5px;
+
+    text-align: right;
+    text-decoration: none;
+
+    color: $white;
+
+    @include transition;
+    &:before {
+      font-size: rem-calc(16);
+
+      left: 5px;
+
+      content: '';
+
+      @include vertical-center;
+      @extend .fa;
+    }
+    &._fb {
+      background-color: #3b5998;
+      &:hover {
+        background-color: #3b5998 + #111;
+      }
+      &:before {
+        @extend .fa-facebook-official;
+      }
+    }
+    &._gp {
+      background-color: #d02023;
+      &:hover {
+        background-color: #d02023 + #111;
+      }
+      &:before {
+        @extend .fa-google-plus-square;
+      }
+    }
+    &._tw {
+      background-color: #018dd1;
+      &:hover {
+        background-color: #018dd1 + #111;
+      }
+      &:before {
+        @extend .fa-twitter-square;
+      }
+    }
+  }
+}

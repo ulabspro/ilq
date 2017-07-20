@@ -16,13 +16,16 @@
       color: $light-rose;
     }
   }
+  .form-field__item {
+    padding-left: 15px;
+  }
 }
 
 .subscribe-footer-form {
   display: flex;
 
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
 
   justify-content: center;

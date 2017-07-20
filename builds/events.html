@@ -28,6 +28,7 @@
         <script>
             (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
         </script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
 
     <body>
@@ -56,7 +57,7 @@
                         </div>
                         <div class="top-user__column _right">
                             <input type="submit" value="Sign In" class="top-user__submit">
-                            <div class="top-user__register">or<a href="#" title="">Register</a>
+                            <div class="top-user__register">or<a href="#" title="" data-modal="#registration" class="jsModalCall">Register</a>
                             </div><a href="#" title="" class="top-user__forgot-password">Forgot password?</a>
                         </div>
                     </form>
@@ -1028,6 +1029,54 @@
                 </div>
             </div>
         </footer>
+        <div id="registration" class="modal _registration">
+            <div class="modal__title">Register</div>
+            <div class="modal__close jsModalClose"></div>
+            <form method="" action="" class="form">
+                <div class="form-field _modal-iconed _modal-username _error">
+                    <input type="text" value="" placeholder="Username" class="_modal-iconed _modal-username _error form-field__item">
+                    <div class="form-field__error">Username is already taken</div>
+                </div>
+                <div class="form-field _modal-iconed _modal-email _error">
+                    <input type="email" value="" placeholder="Email" class="_modal-iconed _modal-email _error form-field__item">
+                    <div class="form-field__error">This e-mail was already used for registration <a href="#" title="">Restore account</a>
+                    </div>
+                </div>
+                <div class="form-field _modal-iconed _modal-password">
+                    <input type="password" value="" placeholder="Password" class="_modal-iconed _modal-password form-field__item">
+                </div>
+                <div class="form-field _modal-iconed _modal-password">
+                    <input type="password" value="" placeholder="Confirm password" class="_modal-iconed _modal-password form-field__item">
+                </div>
+                <div class="form-field _modal-iconed _modal-phone">
+                    <input type="text" value="" placeholder="Mobile number (optional)" class="_modal-iconed _modal-phone form-field__item">
+                </div>
+                <div class="form-select _modal-iconed _modal-timezone">
+                    <select class="form-select__list _modal-iconed _modal-timezone">
+                        <option>Choose your time zone</option>
+                        <option>+5</option>
+                    </select>
+                </div>
+                <div class="form-recaptcha">
+                    <div class="g-recaptcha" data-sitekey="6Le8wCkUAAAAAOqCRmwJj9a73Fez2q_I0G-qI89o"></div>
+                </div>
+                <div class="form-privacy">By pressing the "Join" button you are agreeing to out company's <a href="#" title="">Privacy policy</a> and <a href="#" title="">Terms of use</a>
+                </div>
+                <input type="submit" value="Join" class="form-submit _modal-join">
+                <div class="form-social">
+                    <div class="form-social__title">Or Sign Up with</div><a href="#" title="" class="form-social__button _fb">Facebook</a><a href="#" title="" class="form-social__button _gp">Google+</a><a href="#" title="" class="form-social__button _tw">Twitter</a>
+                </div>
+            </form>
+        </div>
+        <div id="welcome" class="modal _welcome">
+            <div class="modal__title">Welcome to</div>
+            <div class="modal__close"></div>
+            <div class="modal-welcome__inside">
+                <img src="static/images/assets/modal/logo-modal.png" alt="">
+                <p>You have successfully registered your account!</p><span>Please confirm your e-mail address by clicking on the URL sent to you.</span><em>The e-mail usually arrives in 5-10 minutes. <br> If you still haven't received the e-mail, press <a href="#" title="">here</a> to re-send.</em>
+            </div>
+        </div>
+        <div class="mask"></div>
         <script src="static/js/main.min.js"></script>
     </body>
 
