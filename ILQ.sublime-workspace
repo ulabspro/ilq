@@ -4,36 +4,60 @@
 		"selected_items":
 		[
 			[
-				"goog",
-				"googleSearch"
-			],
-			[
-				"pad",
-				"padding-left"
-			],
-			[
 				"text",
 				"text-decoration"
 			],
 			[
-				"margin",
-				"margin-top"
+				"fon",
+				"font-family"
 			],
 			[
-				"fon",
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"moda",
+				"modal"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"font",
 				"font-size"
+			],
+			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"for",
+				"form-social"
+			],
+			[
+				"fo",
+				"form-social"
+			],
+			[
+				"c",
+				"c8c8c8"
+			],
+			[
+				"form",
+				"form-select"
+			],
+			[
+				"goog",
+				"googleSearch"
 			],
 			[
 				"pagin",
 				"paginate__item"
-			],
-			[
-				"marign",
-				"margin-left"
-			],
-			[
-				"fn",
-				"font-size"
 			],
 			[
 				"te",
@@ -98,10 +122,6 @@
 			[
 				"tex",
 				"text-decoration"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"ar",
@@ -196,10 +216,6 @@
 				"text-indent"
 			],
 			[
-				"form",
-				"form-attachment"
-			],
-			[
 				"form-a",
 				"form-attachment__file-text"
 			],
@@ -276,16 +292,8 @@
 				"user-settings-notifications"
 			],
 			[
-				"moda",
-				"modal__text"
-			],
-			[
 				"_",
 				"_fourth"
-			],
-			[
-				"for",
-				"form-group"
 			],
 			[
 				"use",
@@ -506,14 +514,6 @@
 			[
 				"he",
 				"header-contact"
-			],
-			[
-				"hea",
-				"header-contact"
-			],
-			[
-				"h",
-				"header-language"
 			]
 		]
 	},
@@ -593,14 +593,29 @@
 	[
 		"/Users/extiser/git/1studio/iloveqatar/markup",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/search",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/head",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/buttons.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-social.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-field.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/layout.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.js",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-select.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/head/head.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe-footer.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.js",
@@ -615,7 +630,6 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-news/top-news.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/news-sub.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-articles/news-articles.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/pages/layout.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-block/news-block.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-block/news-block.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-full/top-full.jade",
@@ -629,7 +643,6 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/video-row/video-row.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/video-row/video-row.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-full/top-full.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/advertise.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/footer/footer.jade",
@@ -639,13 +652,11 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/recommend/recommend.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-main/videos-main.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/sidebar/sidebar.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-field.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/stay-connected/stay-connected.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/stay-connected/stay-connected.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe-sidebar.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/weather/weather.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/weather/weather.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/buttons.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-block/article-block.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-articles/main-articles.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-block/article-block.jade",
@@ -671,11 +682,9 @@
 		"/Users/extiser/git/ozone/markup/components/menu/data/data.js",
 		"/Users/extiser/git/ozone/markup/components/menu/menu.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/1studio/carbox/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/normalize.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/default_component_scheme.json",
@@ -721,14 +730,7 @@
 		"/Users/extiser/MAMP/ilq_api/events/going/delete/index.php",
 		"/Users/extiser/MAMP/ilq_api/events/going/add/index.php",
 		"/Users/extiser/MAMP/ilq_api/events/categories/index.php",
-		"/Users/extiser/MAMP/ilq_api/event/index.php",
-		"/Users/extiser/MAMP/ilq_api/event/submit/index.php",
-		"/Users/extiser/MAMP/ilq_api/event/favourite/index.php",
-		"/Users/extiser/MAMP/ilq_api/event/favourite/delete/index.php",
-		"/Users/extiser/MAMP/ilq_api/event/favourite/add/index.php",
-		"/Users/extiser/MAMP/ilq_api/channel/update/index.php",
-		"/Users/extiser/MAMP/ilq_api/channel/index.php",
-		"/Users/extiser/MAMP/ilq_api/channel/events/index.php"
+		"/Users/extiser/MAMP/ilq_api/event/index.php"
 	],
 	"find":
 	{
@@ -748,6 +750,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".form-field__field",
+			".form-group",
 			"img(src=\"\")",
 			"ajax",
 			"input",
@@ -873,9 +877,7 @@
 			"content-row-l",
 			"content-row-f",
 			"content-row2",
-			"content-row1",
-			".art-menu a",
-			"\""
+			"content-row1"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -883,6 +885,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			".form-field__item",
+			".form-field",
 			"img(src=\"http://via.placeholder.com/80x60&text=Preview\")",
 			"OpenSans-Italic",
 			"OpenSans-Bold",
@@ -1008,9 +1012,7 @@
 			"<button type=\"button\" class=\"btn btn-success save_redact\">Сохранить</button>\n<button type=\"button\" class=\"btn btn-default cancel_redact\">Отменить</button>",
 			"col-xs",
 			"",
-			"class=\"save_redact\"",
-			"class=\"redacting\"",
-			"rows=\"5\""
+			"class=\"save_redact\""
 		],
 		"reverse": false,
 		"show_context": false,

@@ -14,3 +14,24 @@ mixin top-user(data)
       .top-user__register or
         a(href="#" title="" data-modal="#registration").jsModalCall Register
       a(href="#" title="").top-user__forgot-password Forgot password?
+
+mixin top-user-logined(data)
+  .top-user-logined
+    .top-user-logined__avatar
+      img(src="http://via.placeholder.com/55x55&text=A")
+    .top-user-logined__content
+      .top-user-logined__name User <span>(users@mail.com)</span>
+      .top-user-logined__points 1257 points
+        a(href="#" title="") (Show me on leaderboard)
+      .top-user-logined-control
+        a(href="#" title="").top-user-logined-control__item._notifications Notifications
+        a(href="#" title="").top-user-logined-control__item._messages Messages
+    .top-user-logined-menu
+      .top-user-logined-menu__icon
+      .top-user-logined-menu-dropdown
+        a(href="#" title="").top-user-logined-menu-dropdown__item._profile Edit profile
+        a(href="#" title="").top-user-logined-menu-dropdown__item._settings Account settings
+        a(href="#" title="").top-user-logined-menu-dropdown__item._logout Log out
+
+
+

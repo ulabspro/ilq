@@ -1,0 +1,167 @@
+.top-user-logined {
+  position: relative;
+
+  display: flex;
+
+  padding-right: 45px;
+
+  justify-content: flex-start;
+  align-items: center;
+  &__avatar {
+    margin-right: 15px;
+    img {
+      display: block;
+
+      border-radius: 50%;
+    }
+  }
+  &__name {
+    font-family: $Bold;
+    font-size: rem-calc(18);
+
+    color: $rose;
+    span {
+      font-family: $Regular;
+      font-size: rem-calc(14);
+    }
+  }
+  &__points {
+    font-size: rem-calc(14);
+
+    color: $rose;
+    a {
+      font-size: rem-calc(13);
+
+      margin-left: 10px;
+
+      color: $gray;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.top-user-logined-control {
+  display: flex;
+
+  margin-top: 5px;
+
+  justify-content: flex-start;
+  align-items: center;
+  &__item {
+    font-size: rem-calc(13);
+
+    position: relative;
+
+    margin-right: 10px;
+    padding-left: 15px;
+
+    text-decoration: none;
+
+    color: $gray;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:before {
+      left: 0;
+
+      @extend .fa;
+      @include vertical-center;
+    }
+    &._notifications {
+      &:before {
+        @extend .fa-bell;
+      }
+    }
+    &._messages {
+      &:before {
+        @extend .fa-envelope;
+      }
+    }
+  }
+}
+
+.top-user-logined-menu {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  &__icon {
+    position: relative;
+    z-index: 100;
+
+    box-sizing: border-box;
+    padding: 0 5px;
+
+    color: $rose;
+    border: 2px solid transparent;
+    &:before {
+      @extend .fa;
+      @extend .fa-bars;
+    }
+  }
+  &:hover {
+    .top-user-logined-menu__icon {
+      border: 2px solid rgba($gray, .3);
+      border-bottom: 2px solid $white;
+    }
+    .top-user-logined-menu-dropdown {
+      display: block;
+    }
+  }
+}
+
+.top-user-logined-menu-dropdown {
+  position: absolute;
+  z-index: 99;
+  top: 24px;
+  right: 0;
+
+  display: none;
+
+  width: 170px;
+
+  border: 2px solid rgba($gray, .3);
+  background-color: $white;
+  &__item {
+    font-size: rem-calc(13);
+
+    position: relative;
+
+    display: block;
+
+    margin: 0 15px;
+    padding: 10px 0;
+    padding-left: 20px;
+
+    text-decoration: none;
+
+    color: $rose;
+    border-bottom: 1px solid rgba($gray, .3);
+    &:hover {
+      color: $light-rose;
+    }
+    &:before {
+      position: absolute;
+      left: 0;
+
+      @extend .fa;
+      @include vertical-center;
+    }
+    &._profile {
+      &:before {
+        @extend .fa-user;
+      }
+    }
+    &._settings {
+      &:before {
+        @extend .fa-cog;
+      }
+    }
+    &._logout {
+      &:before {
+        @extend .fa-sign-out;
+      }
+    }
+  }
+}
