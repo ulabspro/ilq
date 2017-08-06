@@ -1,0 +1,19 @@
+extends ./layout.jade
+
+block variables
+  - var page = 'videos'
+
+block header
+  +header._videos
+
+block content
+  .page._inside
+    +top-baner-full
+    +videos-player
+    .page__layout
+      .page__content
+        +videos-page
+        +article-meta('Liked the video? Share it!')
+      .page__sidebar
+        +sidebar
+    +bottom-baner-full

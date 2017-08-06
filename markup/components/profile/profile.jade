@@ -1,0 +1,24 @@
+mixin profile-sidebar(data)
+  .profile-sidebar
+    .profile-sidebar-menu
+      a(href="#" title="").profile-sidebar-menu__item._mylife My life
+      a(href="#" title="").profile-sidebar-menu__item._edit Edit profile
+      a(href="#" title="").profile-sidebar-menu__item._news My news
+      a(href="#" title="").profile-sidebar-menu__item._events My events
+      a(href="#" title="").profile-sidebar-menu__item._friends My friends
+      a(href="#" title="").profile-sidebar-menu__item._messages Messages
+        span 10
+      a(href="#" title="").profile-sidebar-menu__item._notifications Notifications
+      a(href="#" title="").profile-sidebar-menu__item._leaderboard Leaderboard
+      a(href="#" title="").profile-sidebar-menu__item._settings Account settings
+      a(href="#" title="").profile-sidebar-menu__item._logout Log out
+
+mixin edit-profile()
+  .edit-profile
+    .edit-profile-top
+      .edit-profile-top-avatar
+        img(src="http://via.placeholder.com/160x160&text=Avatar").edit-profile-top-avatar__image          
+      .edit-profile-top-content
+        .edit-profile-top-content__row
+          span Username
+          +form-field('Dilya', 'text')

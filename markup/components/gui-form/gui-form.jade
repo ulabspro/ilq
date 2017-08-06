@@ -1,7 +1,7 @@
 mixin form-field(placeholder, type, hasError)
   - var modiffer = attributes.class || ''
   .form-field(class="#{modiffer}")
-    input(type="#{type}" value="" placeholder="#{placeholder}" class="#{modiffer}").form-field__item
+    input(type="#{type}" value="" placeholder="#{placeholder}").form-field__item
     - if (hasError)
       .form-field__error!=hasError
 

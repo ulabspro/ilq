@@ -26,6 +26,13 @@
       background-color: $violet + #111;
     }
   }
+  &._blue {
+    color: $white;
+    background-color: $blue;
+    &:hover {
+      background-color: $blue + #111;
+    }
+  }
 }
 
 .form-submit {

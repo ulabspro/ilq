@@ -1,0 +1,116 @@
+.profile-sidebar-menu {
+  &__item {
+    font-size: rem-calc(18);
+
+    position: relative;
+
+    display: block;
+
+    padding: 10px 0 10px 30px;
+
+    text-decoration: none;
+
+    color: $rose;
+    border-bottom: 1px solid #dfe0df;
+
+    @include transition;
+    &:hover,
+    &._active {
+      border-bottom-color: $rose;
+    }
+    &:before {
+      left: 5px;
+
+      @extend .fa;
+      @include vertical-center;
+    }
+    span {
+      font-size: rem-calc(12);
+      line-height: 25px;
+
+      position: absolute;
+      right: 10px;
+
+      width: 25px;
+      height: 25px;
+
+      text-align: center;
+
+      color: $white;
+      border-radius: 50%;
+      background-color: $rose;
+
+      @include vertical-center;
+    }
+    &._mylife {
+      &:before {
+        @extend .fa-heart;
+      }
+    }
+    &._edit {
+      &:before {
+        @extend .fa-user;
+      }
+    }
+    &._news {
+      &:before {
+        font-size: rem-calc(16);
+
+        left: 4px;
+
+        @extend .fa-newspaper-o;
+      }
+    }
+    &._events {
+      &:before {
+        font-size: rem-calc(16);
+
+        left: 6px;
+
+        @extend .fa-calendar;
+      }
+    }
+    &._friends {
+      &:before {
+        font-size: rem-calc(16);
+
+        @extend .fa-users;
+      }
+    }
+    &._messages {
+      &:before {
+        font-size: rem-calc(16);
+
+        left: 6px;
+
+        @extend .fa-envelope;
+      }
+    }
+    &._notifications {
+      &:before {
+        font-size: rem-calc(16);
+
+        left: 6px;
+
+        @extend .fa-bell;
+      }
+    }
+    &._leaderboard {
+      &:before {
+        @extend .fa-star;
+      }
+    }
+    &._settings {
+      &:before {
+        @extend .fa-cog;
+      }
+    }
+    &._logout {
+      &:before {
+        left: 6px;
+
+        @extend .fa-sign-out;
+      }
+    }
+  }
+}

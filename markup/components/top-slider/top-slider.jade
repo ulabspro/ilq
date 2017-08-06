@@ -13,6 +13,13 @@ mixin top-slider(data)
                 .top-slider-content-event__item._place Doha Exhibition and Convention Center, Doha
                 .top-slider-content-event__item._date 18-22 May
                 .top-slider-content-event__item._time 12:00
+            - if (data.page == 'videos')
+              .top-slider-content-event._videos
+                .top-slider-content-event__item._views 127 000
+                .top-slider-content-event__item._time 24 March 2017
+                a(href="#" title="").top-slider-content-event__item._fb
+                a(href="#" title="").top-slider-content-event__item._tw
+            
           .top-slider-controls
             .top-slider-controls__item._left.jsTopSliderLeft
             .top-slider-controls__count.jsTopSliderStatus 1 of 5

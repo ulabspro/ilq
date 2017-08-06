@@ -1,0 +1,27 @@
+mixin videos-player(data)
+  .videos-player
+    .videos-player__layout
+      video#my-video.video-js(controls preload="auto" width="750" height="410" poster="%=static=%images/assets/videos-player/temp_preview.jpg" data-setup="{}")
+        source(src="temp_video.mp4" type="video/mp4")
+    .videos-player-list
+      .videos-player-list__title Qtips: Bite Sized Qatari Cultural Tips
+      .videos-player-list__content
+        .videos-player-list-item._active
+          span
+          .videos-player-list-item__image
+            img(src="http://via.placeholder.com/65x40&text=preview")
+          .videos-player-list-item__content
+            .videos-player-list-item__title #Qtips: Can Qataris Date?
+            .videos-player-list-item-meta
+              .videos-player-list-item-meta__item._views 127 850
+              .videos-player-list-item-meta__item._date 24 March 2017
+        - for (var i = 2; i < 10; i++)
+          .videos-player-list-item
+            span=i
+            .videos-player-list-item__image
+              img(src="http://via.placeholder.com/65x40&text=preview")
+            .videos-player-list-item__content
+              .videos-player-list-item__title #Qtips: Can Qataris Date?
+              .videos-player-list-item-meta
+                .videos-player-list-item-meta__item._views 127 850
+                .videos-player-list-item-meta__item._date 24 March 2017

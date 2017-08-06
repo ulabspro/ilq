@@ -1,0 +1,19 @@
+extends ./layout.jade
+
+block variables
+  - var page = 'videos'
+
+block header
+  +header._videos
+
+block content
+  .page._inside
+    +top-baner-full
+    +top-full('videos')
+    .page__layout
+      .page__content
+        +videos-content-sub
+        +paginate._videos
+      .page__sidebar
+        +sidebar
+    +bottom-baner-full

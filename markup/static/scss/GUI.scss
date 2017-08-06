@@ -28,7 +28,7 @@
   }
   &__content {
     width: 100%;
-    max-width: 820px;
+    max-width: 825px;
   }
   &__sidebar {
     width: 100%;
@@ -37,3 +37,21 @@
   }
 }
 
+.content {
+  h1 {
+    font-family: $Bold;
+    font-size: rem-calc(24);
+  }
+  p {
+    font-size: rem-calc(16);
+    line-height: rem-calc(27);
+
+    color: $semi-black;
+  }
+  a {
+    color: $blue;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

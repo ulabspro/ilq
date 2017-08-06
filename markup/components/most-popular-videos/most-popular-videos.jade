@@ -1,0 +1,8 @@
+mixin most-popular-videos(data)
+  .most-popular-videos
+    .most-popular-videos-top
+      .most-popular-videos-top__title Most popular
+      a(href="#" title="").most-popular-videos-top__link View more
+    .most-popular-videos__content
+      - for (var i = 0; i < 3; i++)
+        +video-block-overlay

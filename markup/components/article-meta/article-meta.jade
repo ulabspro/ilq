@@ -1,0 +1,14 @@
+mixin article-meta(title)
+  .article-meta
+    .article-meta__title=title
+    .article-meta__share 
+      img(src="%=static=%images/assets/article-meta/temp_share.jpg" alt="")
+    .article-meta__custom
+      .article-meta-button._print Print it!
+      .article-meta-button._email Send by e-mail
+
+    .article-meta-tags 
+      .article-meta-tags__title Tags:
+      a(href="#" title="").article-meta-tags__item Qtips
+      a(href="#" title="").article-meta-tags__item Video
+      a(href="#" title="").article-meta-tags__item Dating
