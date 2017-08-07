@@ -37884,6 +37884,8 @@ return videojs;
 
 
 
+
+
 $('.jsModalCall').click(function (e) {
   e.preventDefault;
   var modalItem = $(this).data('modal');
@@ -37897,6 +37899,7 @@ $('.mask, .jsModalClose').click(function (e) {
 
   $('.mask, .modal').removeClass('_active');
 });
+
 
 
 

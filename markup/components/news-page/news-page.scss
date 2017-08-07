@@ -1,0 +1,1 @@
+.news-page {  h1 {    color: $rose;  }  h2 {    color: $rose;    font-family: $Bold;    font-size: rem-calc(14);  }  .content-meta {    color: $rose;    &__item {      &:after {        background-color: $rose;      }    }  }}

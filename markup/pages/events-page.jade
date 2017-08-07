@@ -1,19 +1,19 @@
 extends ./layout.jade
 
 block variables
-  - var page = 'videos'
+  - var page = 'events'
 
 block header
-  +header._videos
+  +header._events
 
 block content
   .page._inside
     +top-baner-full
-    +videos-player
+    +events-image
     .page__layout
       .page__content
-        +videos-page
-        +article-meta('Liked the video? Share it!')
+        +events-page
+        +article-meta('Liked this event? Share it!')
         +coments
       .page__sidebar
         +sidebar

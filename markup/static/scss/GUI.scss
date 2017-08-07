@@ -55,3 +55,78 @@
     }
   }
 }
+
+.content-meta {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  &__item {
+    font-size: rem-calc(14);
+
+    position: relative;
+
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+    &:after {
+      position: absolute;
+      right: 0;
+
+      display: block;
+
+      width: 3px;
+      height: 3px;
+
+      content: '';
+
+      border-radius: 50%;
+      background-color: inherit;
+
+      @include vertical-center;
+    }
+    &:before {
+      left: 0;
+
+      content: '';
+
+      @extend .fa;
+      @include vertical-center;
+    }
+    &._author {
+      display: flex;
+
+      padding-left: 0;
+
+      justify-content: flex-start;
+      align-items: center;
+      img {
+        display: block;
+
+        margin-right: 10px;
+
+        border-radius: 50%;
+      }
+    }
+    &._date {
+      &:before {
+        @extend .fa-clock-o;
+      }
+    }
+    &._view {
+      &:before {
+        @extend .fa-eye;
+      }
+    }
+    &._share {
+      &:before {
+        @extend .fa-share;
+      }
+    }
+  }
+}
