@@ -1,0 +1,11 @@
+mixin dining-articles(data)
+  .dining-articles
+    - for (var i = 0; i < 5; i++)
+      - var data = {paginate: {start: 'Dining', end: 'Foddie news'}, title: 'Emir firm on maintaining standard of living in Qatar: Finance Minister', text: 'His Highness the Emir Sheikh Tamim bin Hamad al-Thani has given firm instructions to do everything necessary to maintain the standard of living of the people in Qatar'};
+      +article-block(data)._dining
+
+    +baner-list()
+
+    - for (var i = 0; i < 5; i++)
+      - var data = {paginate: {start: 'News', end: 'Social'}, title: 'Emir firm on maintaining standard of living in Qatar: Finance Minister', text: 'His Highness the Emir Sheikh Tamim bin Hamad al-Thani has given firm instructions to do everything necessary to maintain the standard of living of the people in Qatar'};
+      +article-block(data)._dining

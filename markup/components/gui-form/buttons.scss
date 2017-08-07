@@ -33,6 +33,13 @@
       background-color: $blue + #111;
     }
   }
+  &._orange {
+    color: $white;
+    background-color: $orange;
+    &:hover {
+      background-color: $orange + #111;
+    }
+  }
 }
 
 .form-submit {

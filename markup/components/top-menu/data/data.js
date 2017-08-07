@@ -63,7 +63,10 @@ data = {
       modiffer: '_dining',
       sublist: {
         items: [
-          'RESTAURANT GUIDE'
+          'RESTAURANT GUIDE',
+          'Reviews',
+          'Blog',
+          'Special offers'
         ]
       }
     },
