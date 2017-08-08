@@ -1,0 +1,8 @@
+mixin filtered-block(category, count)
+  - var modiffer = attributes.class || ''
+  .filtered-block(class="#{modiffer}")
+    .filtered-block__date=category
+      span 18 May
+    .filtered-block__article
+      - for (var i = 0; i < count; i++)
+        +article-filter

@@ -31,3 +31,20 @@ mixin article-overlay(data)
       .article-overlay-meta
         .article-overlay-meta__item._place Eggspectation The Pearl
         .article-overlay-meta__item._date 26 May - 24 March 2017
+
+mixin article-filter(data)
+  - var modiffer = attributes.class || ''
+  .article-filter(class="#{modiffer}")
+    .article-filter__image
+      img(src="http://via.placeholder.com/120x120&text=ArticleImagePreview")
+    .article-filter__content
+      a(href="#" title="").article-filter__title Beach Deze
+      .article-filter__text His Highness the Emir Sheikh Tamim bin Hamad al-Thani has given firm instructions to do everything necessary to maintain the standard of living of the people in Qatar
+
+      .article-filter-meta
+        .article-filter-meta__item._place Grand Hyatt Doha
+        - if (page == 'events')
+          .article-filter-meta__item._date 24 March 2017
+        - if (page == 'dining')
+          .article-filter-meta__item._date 12:00 - 00:30
+          .article-filter-meta__item._cost QR335-390

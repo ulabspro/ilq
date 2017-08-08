@@ -1,0 +1,12 @@
+mixin dining-special(data)
+  .dining-special
+    .events-articles-date-controls._dining
+      a(href="#" title="").events-articles-date-controls__item._active Today
+      a(href="#" title="").events-articles-date-controls__item This week
+      a(href="#" title="").events-articles-date-controls__item Later
+
+    +filtered-block('', 7)._dining
+
+    +baner-list
+
+    +filtered-block('', 7)._dining

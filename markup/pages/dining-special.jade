@@ -1,0 +1,19 @@
+extends ./layout.jade
+
+block variables
+  - var page = 'dining'
+
+block header
+  +header._dining
+
+block content
+  .page._inside
+    +top-baner-full
+    +top-full('dining')
+    .page__layout
+      .page__content
+        +dining-special
+      .page__sidebar
+        +sidebar
+    +paginate._dining
+    +bottom-baner-full

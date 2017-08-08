@@ -1,0 +1,16 @@
+mixin events-filtered-articles(data)
+  .events-filtered-articles
+    .events-articles-date-controls
+      a(href="#" title="").events-articles-date-controls__item._active Today
+      a(href="#" title="").events-articles-date-controls__item This week
+      a(href="#" title="").events-articles-date-controls__item Later
+
+    +filtered-block('MISC', 2)._events
+    +filtered-block('SPORT', 3)._events
+    +filtered-block('EXHIBITIONS', 2)._events
+    +filtered-block('SOCIAL', 1)._events
+
+    +baner-list
+
+    +filtered-block('Intertainment', 3)._events
+    +filtered-block('Culture', 5)._events

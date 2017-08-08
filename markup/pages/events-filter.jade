@@ -1,0 +1,19 @@
+extends ./layout.jade
+
+block variables
+  - var page = 'events'
+
+block header
+  +header._events
+
+block content
+  .page._inside
+    +top-baner-full
+    +top-full('events')
+    .page__layout
+      .page__content
+        +events-filtered-articles
+      .page__sidebar
+        +sidebar
+    +paginate._events
+    +bottom-baner-full
