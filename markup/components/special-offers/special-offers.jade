@@ -1,2 +1,8 @@
 mixin special-offers(data)
   .special-offers
+    .special-offers-top
+      .special-offers-top__title Special Offers
+      a(href="#" title="").special-offers-top__link View all
+    .special-offers__content
+      - for (var i = 0; i < 3; i++)
+        +article-overlay._dining

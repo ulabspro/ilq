@@ -19,3 +19,15 @@ mixin article-block(data)
         .article-block-meta__item._date 24 March 2017
         .article-block-meta__item._views 1250
         .article-block-meta__item._shares 956
+
+mixin article-overlay(data)
+  - var modiffer = attributes.class || ''
+  .article-overlay(class="#{modiffer}")
+    .article-overlay__image
+      img(src="http://via.placeholder.com/350x270&text=ArticleImagePreview")
+    .article-overlay__content
+      a(href="#" title="").article-overlay__title Emir firm on maintaining standard of living in Qatar: Finance Minister
+
+      .article-overlay-meta
+        .article-overlay-meta__item._place Eggspectation The Pearl
+        .article-overlay-meta__item._date 26 May - 24 March 2017

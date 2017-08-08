@@ -1,27 +1,32 @@
 .video-js .vjs-big-play-button {
-  font-size: 3em;
-  line-height: $big-play-button--height;
-  height: $big-play-button--height;
-  width: $big-play-button--width; // Firefox bug: For some reason without width the icon wouldn't show up. Switched to using width and removed padding.
-  display: block;
+  font-size: rem-calc(50);
+  line-height: 100px;
+
   position: absolute;
   top: 10px;
   left: 10px;
+
+  display: block;
+
+  width: 100px; // Firefox bug: For some reason without width the icon wouldn't show up. Switched to using width and removed padding.
+  height: 100px;
   padding: 0;
+
   cursor: pointer;
+
   opacity: 1;
-  border: 0.06666em solid $primary-foreground-color;
-
+  color: $semi-black;
   // Need a slightly gray bg so it can be seen on black backgrounds
-  @include background-color-with-alpha($primary-background-color, $primary-background-transparency);
-  @include border-radius(0.3em);
-  @include transition(all 0.4s);
+  border-radius: 50%;
+  background-color: rgba($white, .7);
+  // border: 0.06666em solid $primary-foreground-color;
 
+  @include absolute-center;
+  @include transition(all .4s);
   // Since the big play button doesn't inherit from vjs-control, we need to specify a bit more than
   // other buttons for the icon.
   & .vjs-icon-placeholder:before {
     @extend .vjs-icon-play;
-
     @extend %icon-default;
   }
 }
@@ -30,6 +35,7 @@
 .vjs-big-play-centered .vjs-big-play-button {
   top: 50%;
   left: 50%;
+
   margin-top: -($big-play-button--height / 2);
   margin-left: -($big-play-button--width / 2);
 }
