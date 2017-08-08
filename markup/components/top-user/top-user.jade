@@ -1,19 +1,21 @@
 mixin top-user(data)
   form(method="" action="").top-user.form
-    .top-user__column._left
-      +form-field('Username', 'text')._iconed._username
-      +form-field('Password', 'password')._iconed._password
-      .top-user-social
-        .top-user-social__title Sign in with
-        .top-user-social-buttons
-          a(href="#" title="").top-user-social-buttons__item._fb Facebook
-          a(href="#" title="").top-user-social-buttons__item._gp Google+
-          a(href="#" title="").top-user-social-buttons__item._tw Twitter
-    .top-user__column._right
-      input(type="submit" value="Sign In").top-user__submit
-      .top-user__register or
-        a(href="#" title="" data-modal="#registration").jsModalCall Register
-      a(href="#" title="").top-user__forgot-password Forgot password?
+    .top-user__mobile
+    .top-user__list
+      .top-user__column._left
+        +form-field('Username', 'text')._iconed._username
+        +form-field('Password', 'password')._iconed._password
+        .top-user-social
+          .top-user-social__title Sign in with
+          .top-user-social-buttons
+            a(href="#" title="").top-user-social-buttons__item._fb Facebook
+            a(href="#" title="").top-user-social-buttons__item._gp Google+
+            a(href="#" title="").top-user-social-buttons__item._tw Twitter
+      .top-user__column._right
+        input(type="submit" value="Sign In").top-user__submit
+        .top-user__register or
+          a(href="#" title="" data-modal="#registration").jsModalCall Register
+        a(href="#" title="").top-user__forgot-password Forgot password?
 
 mixin top-user-logined(data)
   .top-user-logined

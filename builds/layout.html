@@ -41,24 +41,29 @@
                     <div class="advertise join-team">
                         <img src="http://via.placeholder.com/400x110&amp;text=BANNER">
                     </div>
-                    <div class="top-user-logined">
-                        <div class="top-user-logined__avatar">
-                            <img src="http://via.placeholder.com/55x55&amp;text=A">
+                    <form method="" action="" class="top-user form">
+                        <div class="top-user__mobile"></div>
+                        <div class="top-user__list">
+                            <div class="top-user__column _left">
+                                <div class="form-field _iconed _username">
+                                    <input type="text" value="" placeholder="Username" class="form-field__item">
+                                </div>
+                                <div class="form-field _iconed _password">
+                                    <input type="password" value="" placeholder="Password" class="form-field__item">
+                                </div>
+                                <div class="top-user-social">
+                                    <div class="top-user-social__title">Sign in with</div>
+                                    <div class="top-user-social-buttons"><a href="#" title="" class="top-user-social-buttons__item _fb">Facebook</a><a href="#" title="" class="top-user-social-buttons__item _gp">Google+</a><a href="#" title="" class="top-user-social-buttons__item _tw">Twitter</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-user__column _right">
+                                <input type="submit" value="Sign In" class="top-user__submit">
+                                <div class="top-user__register">or<a href="#" title="" data-modal="#registration" class="jsModalCall">Register</a>
+                                </div><a href="#" title="" class="top-user__forgot-password">Forgot password?</a>
+                            </div>
                         </div>
-                        <div class="top-user-logined__content">
-                            <div class="top-user-logined__name">User <span>(users@mail.com)</span>
-                            </div>
-                            <div class="top-user-logined__points">1257 points<a href="#" title="">(Show me on leaderboard)</a>
-                            </div>
-                            <div class="top-user-logined-control"><a href="#" title="" class="top-user-logined-control__item _notifications">Notifications</a><a href="#" title="" class="top-user-logined-control__item _messages">Messages</a>
-                            </div>
-                        </div>
-                        <div class="top-user-logined-menu">
-                            <div class="top-user-logined-menu__icon"></div>
-                            <div class="top-user-logined-menu-dropdown"><a href="#" title="" class="top-user-logined-menu-dropdown__item _profile">Edit profile</a><a href="#" title="" class="top-user-logined-menu-dropdown__item _settings">Account settings</a><a href="#" title="" class="top-user-logined-menu-dropdown__item _logout">Log out</a>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
                 <div class="header__row _bottom">
                     <div class="top-menu">
@@ -169,7 +174,7 @@
                 </div>
             </div>
         </footer>
-        <div id="registration" class="modal _registration">
+        <div id="registration" class="modal _registration _active">
             <div class="modal__title">Register</div>
             <div class="modal__close jsModalClose"></div>
             <form method="" action="" class="form">

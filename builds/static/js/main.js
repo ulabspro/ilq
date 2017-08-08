@@ -37943,7 +37943,11 @@ $('[data-tab]').click(function (e) {
   $this.closest('.jsTabs').find('.jsTabsContent').find('[data-tabcontent]').eq(tabCount).addClass('_active').siblings().removeClass('_active');
 });
 
-
+$('.top-menu__mobile').click(function () {
+  var $this = $(this);
+  $this.toggleClass('_active');
+  $this.closest('.top-menu').find('.top-menu__list').toggleClass('_active');
+});
 
 var $status = $('.jsTopSliderStatus');
 var $slickElement = $('.jsTopSlider');

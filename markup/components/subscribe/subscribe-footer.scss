@@ -6,6 +6,11 @@
     margin-bottom: 20px;
 
     color: rgba($white, .9);
+    @media screen and (max-width: 760px) {
+      font-size: rem-calc(18);
+
+      padding: 0 15px;
+    }
     span {
       font-family: $Bold;
 
@@ -30,6 +35,9 @@
 
   justify-content: center;
   align-items: stretch;
+  @media screen and (max-width: 760px) {
+    max-width: 90%;
+  }
   &__submit {
     font-size: rem-calc(16);
 
@@ -37,5 +45,8 @@
 
     @extend .button;
     @extend .button._light-rose;
+    @media screen and (max-width: 760px) {
+      font-size: rem-calc(12);
+    }
   }
 }

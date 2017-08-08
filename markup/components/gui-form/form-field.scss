@@ -12,9 +12,17 @@
 
       @extend .fa;
     }
+    .form-field__item {
+      padding-left: 25px;
+    }
   }
   &._modal-iconed {
     margin-bottom: 12px;
+    
+    .form-field__item {
+      height: 45px;
+      padding-left: 40px;
+    }
     &:before {
       font-size: rem-calc(13);
 
@@ -106,13 +114,7 @@
     height: 30px;
 
     border: 1px solid #c8c8c8;
-    &._iconed {
-      padding-left: 25px;
-    }
-    &._modal-iconed {
-      height: 45px;
-      padding-left: 40px;
-    }
+   
   }
   &__error {
     font-size: rem-calc(14);
