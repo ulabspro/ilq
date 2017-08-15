@@ -5,39 +5,107 @@
 		[
 			[
 				"padd",
-				"padding-left"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"pad",
-				"padding-right"
-			],
-			[
-				"marign",
-				"margin-top"
+				"padding"
 			],
 			[
 				"te",
-				"text-decoration"
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"border-bot",
+				"border-bottom"
+			],
+			[
+				"ar",
+				"article-filter"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"marign",
+				"margin-bottom"
 			],
 			[
 				"fon",
 				"font-size"
 			],
 			[
-				"top",
-				"top-user-logined"
+				"eve",
+				"events-page-info"
 			],
 			[
-				"text",
+				"com",
+				"content-meta"
+			],
+			[
+				"con",
+				"content-meta"
+			],
+			[
+				"b",
+				"before"
+			],
+			[
+				"tetx",
 				"text-decoration"
 			],
 			[
+				"str",
+				"strong"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"Q",
+				"Qtips"
+			],
+			[
+				"vide",
+				"videos-player-list-item"
+			],
+			[
+				"video",
+				"videos-player"
+			],
+			[
+				"tx",
+				"text-decoration"
+			],
+			[
+				"vi",
+				"video-block"
+			],
+			[
 				"moda",
-				"modal"
+				"most-popular-videos-top"
+			],
+			[
+				"mo",
+				"most-popular-videos-top"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"e",
+				"edit-profile"
+			],
+			[
+				"top",
+				"top-user-logined"
 			],
 			[
 				"fn",
@@ -70,10 +138,6 @@
 			[
 				"pagin",
 				"paginate__item"
-			],
-			[
-				"vide",
-				"video-row"
 			],
 			[
 				"data",
@@ -122,10 +186,6 @@
 			[
 				"tex",
 				"text-decoration"
-			],
-			[
-				"ar",
-				"article-block-meta"
 			],
 			[
 				"v",
@@ -200,20 +260,12 @@
 				"display"
 			],
 			[
-				"inl",
-				"inline"
-			],
-			[
 				"margn",
 				"margin-left"
 			],
 			[
 				"no",
 				"nowrap"
-			],
-			[
-				"tetx",
-				"text-indent"
 			],
 			[
 				"form-a",
@@ -462,71 +514,11 @@
 			[
 				"top-",
 				"top-menu"
-			],
-			[
-				"after",
-				"page-break-after"
-			],
-			[
-				"font-s",
-				"font-size"
-			],
-			[
-				"Robo",
-				"Roboto-Medium"
-			],
-			[
-				"magin",
-				"margin-bottom"
-			],
-			[
-				"tran",
-				"transparent"
-			],
-			[
-				"border-col",
-				"border-color"
-			],
-			[
-				"inli",
-				"inline-block"
-			],
-			[
-				"col",
-				"color"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"line",
-				"line-height"
-			],
-			[
-				"ab",
-				"absolute"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"he",
-				"header-contact"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "markup/pages/index.jade",
-			"settings":
-			{
-				"buffer_size": 282,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -601,51 +593,111 @@
 	[
 		"/Users/extiser/git/1studio/iloveqatar/markup",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-block/assets",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/assets",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/filtered-block/assets",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user-logined.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/vars.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/buttons.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-social.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-field.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/pages/layout.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-field.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-double/main-double.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/common.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/layout.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/footer/footer.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe-footer.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/video-block/video-block-overlay.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-block/article-block.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-main/videos-main.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-main/videos-main.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-double/main-double.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.js",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/advertise.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/index.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/dining-special.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/dining-special/dining-special.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/filtered-block/filtered-block.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/filtered-block/filtered-block.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-block/article-block.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-block/article-filter.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/events-articles/events-articles.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/events-filter.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/events-filtered-articles/events-filtered-articles.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/events-filtered-articles/events-filtered-articles.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/special-offers/special-offers.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/special-offers/special-offers.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-block/article-overlay.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videosjs-gui/components/_big-play.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/dining-articles/dining-articles.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/paginate/paginate.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/dining.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/data/data.js",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/buttons.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-page/news-page.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-page/news-page.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/news-page.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/events-page.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/videos-page.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/events-page/events-page.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/coments/coments.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/coments/coments.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/events-page/events-page.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-meta/article-meta.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-meta/article-meta.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-page/videos-page.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-page/videos-page.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-player/videos-player.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-player/videos-player.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videosjs-gui/_utilities.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/videos-sub.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/videos.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-content/videos-content.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-content/videos-content.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/video-block/video-block.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/video-block/video-block.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/most-popular-videos/most-popular-videos.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/most-popular-videos/most-popular-videos.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/paginate/paginate.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/paginate/paginate-second.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-full/top-full.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/edit-profile.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/profile/profile.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/profile/profile-sidebar.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/edit-profile/edit-profile.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/news-sub.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user-logined.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/vars.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-social.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-select.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/head/head.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe-footer.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.js",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/paginate/paginate-second.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/pages/index.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/paginate/paginate.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/paginate/paginate.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-news/top-news.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-news/top-news.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/pages/news-sub.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-articles/news-articles.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-block/news-block.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-block/news-block.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-full/top-full.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/events-articles/events-articles.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/events-sub.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/events-articles/events-articles.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/events.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/cinema-guide/cinema-guide.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/cinema-guide/cinema-guide.jade",
@@ -654,88 +706,31 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-full/top-full.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/advertise.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/footer/footer.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/footer/footer.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/sidebar/sidebar.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/recommend/recommend.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/recommend/recommend.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-main/videos-main.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/sidebar/sidebar.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/stay-connected/stay-connected.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/stay-connected/stay-connected.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe-sidebar.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/weather/weather.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/weather/weather.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-block/article-block.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-articles/main-articles.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-block/article-block.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/video-block/video-block-overlay.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/tabs/tabs.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/video-block/video-block.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-main/videos-main.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/tabs/tabs.js",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-double/main-double.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-double/main-double.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/top-baner-right.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.js",
 		"/Users/extiser/git/1studio/iloveqatar/tars-config.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/plugins/slick-theme.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/data/data.js",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/advertise.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/common.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/data/data.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/news.jade",
 		"/Users/extiser/git/ozone/markup/components/menu/data/data.js",
 		"/Users/extiser/git/ozone/markup/components/menu/menu.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/1studio/carbox/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/normalize.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/default_component_scheme.json",
-		"/Users/extiser/git/ozone/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/question/question.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/profiles/profiles.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/registration/registration.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/registration/registration.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/pages/layout.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/pages/registration.jade",
-		"/Users/extiser/MAMP/ambit/wp-content/themes/ambit/modal-consult.php",
-		"/Users/extiser/MAMP/ambit/wp-content/themes/ambit/index.php",
-		"/Users/extiser/MAMP/ambit/test.php",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/nearby/nearby.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/question/question.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/finish/finish.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/static/scss/common.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/header/header.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/attention/attention.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/attention/attention.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/finish/finish.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/pages/step-6.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/pages/finish.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/pages/step-4.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/pages/step-3.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/pages/step-2.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/pages/step-1.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/question/question.js",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/profiles/profiles.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/nearby/nearby.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/ozone/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/header/header.jade",
-		"/Users/extiser/git/SVTEAM/sexdating/markup/components/default_component_scheme.json",
-		"/Users/extiser/MAMP/ilq_api/upload/index.php",
-		"/Users/extiser/MAMP/ilq_api/profile/password/index.php",
-		"/Users/extiser/MAMP/ilq_api/channels/index.php",
-		"/Users/extiser/MAMP/ilq_api/channels/unfollow/index.php",
-		"/Users/extiser/MAMP/ilq_api/channels/follow/index.php",
-		"/Users/extiser/MAMP/ilq_api/events/going/index.php",
-		"/Users/extiser/MAMP/ilq_api/events/going/delete/index.php",
-		"/Users/extiser/MAMP/ilq_api/events/going/add/index.php",
-		"/Users/extiser/MAMP/ilq_api/events/categories/index.php"
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/default_component_scheme.json"
 	],
 	"find":
 	{
@@ -1028,39 +1023,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "markup/pages/index.jade",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 282,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

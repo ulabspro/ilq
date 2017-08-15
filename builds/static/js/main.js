@@ -37889,7 +37889,6 @@ return videojs;
 
 
 
-
 $('.jsModalCall').click(function (e) {
   e.preventDefault;
   var modalItem = $(this).data('modal');
@@ -37903,6 +37902,8 @@ $('.mask, .jsModalClose').click(function (e) {
 
   $('.mask, .modal').removeClass('_active');
 });
+
+
 
 
 
@@ -37948,6 +37949,7 @@ $('.top-menu__mobile').click(function () {
   $this.toggleClass('_active');
   $this.closest('.top-menu').find('.top-menu__list').toggleClass('_active');
 });
+
 
 var $status = $('.jsTopSliderStatus');
 var $slickElement = $('.jsTopSlider');

@@ -5454,6 +5454,10 @@ body {
   left: 6px;
 }
 
+.qatar-guide-page h1, .qatar-guide-page h2 {
+  color: #108971;
+}
+
 .recommend {
   padding-bottom: 15px;
   border-bottom: 2px solid #efefef;
@@ -5964,6 +5968,10 @@ body {
   color: #EF7F1A;
 }
 
+.top-menu__item._active .top-menu__link._qatar-guide, .top-menu__item:hover .top-menu__link._qatar-guide {
+  color: #108971;
+}
+
 .top-menu__link {
   font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
   font-size: 1rem;
@@ -6028,6 +6036,10 @@ body {
   background-color: #EF7F1A;
 }
 
+.top-menu-sublist._qatar-guide {
+  background-color: #108971;
+}
+
 .top-menu-sublist__item {
   font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
   font-size: 0.875rem;
@@ -6075,6 +6087,29 @@ body {
 .top-news__item {
   width: 100%;
   max-width: 23%;
+}
+
+.top-qatar-guide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 25px 25px;
+  border-bottom: 2px solid #efefef;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.top-qatar-guide__item {
+  width: 100%;
+  max-width: 23%;
+}
+
+.top-qatar-guide .news-block__category {
+  color: #108971;
 }
 
 .top-slider {

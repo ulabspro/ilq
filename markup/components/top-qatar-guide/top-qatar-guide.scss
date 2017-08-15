@@ -1,0 +1,1 @@
+.top-qatar-guide {  display: flex;  padding: 15px 25px 25px;  border-bottom: 2px solid #efefef;  justify-content: space-between;  align-items: stretch;  &__item {    width: 100%;    max-width: 23%;  }  .news-block {    &__category  {      color: $green;    }  }}
