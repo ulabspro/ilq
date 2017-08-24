@@ -3489,6 +3489,12 @@ blockquote {
   margin-top: 50px;
 }
 
+.page._forgot {
+  width: 100%;
+  max-width: 100%;
+  padding: 200px 0;
+}
+
 .page__layout {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4271,6 +4277,54 @@ body {
   padding-left: 15px;
 }
 
+.cinema-guide-top__title {
+  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: #8C529A;
+}
+
+.cinema-guide-top-controls__item {
+  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #262626;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.cinema-guide-top-controls__item:last-child {
+  margin-right: 0;
+}
+
+.cinema-guide-top-controls__item:hover {
+  cursor: pointer;
+  color: #616161;
+}
+
+.cinema-guide-top-controls__item._active {
+  color: #8C529A;
+}
+
+.cinema-guide-content__item {
+  margin-right: 30px;
+}
+
+.cinema-guide-content__layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.cinema-guide-content__list {
+  max-width: 65%;
+  width: 100%;
+}
+
 .article-meta {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4363,54 +4417,6 @@ body {
 
 .article-meta-tags__item:hover {
   background-color: #C4094A;
-}
-
-.cinema-guide-top__title {
-  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
-  font-size: 1.125rem;
-  text-transform: uppercase;
-  color: #8C529A;
-}
-
-.cinema-guide-top-controls__item {
-  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
-  font-size: 0.875rem;
-  margin-right: 15px;
-  text-transform: uppercase;
-  color: #262626;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.cinema-guide-top-controls__item:last-child {
-  margin-right: 0;
-}
-
-.cinema-guide-top-controls__item:hover {
-  cursor: pointer;
-  color: #616161;
-}
-
-.cinema-guide-top-controls__item._active {
-  color: #8C529A;
-}
-
-.cinema-guide-content__item {
-  margin-right: 30px;
-}
-
-.cinema-guide-content__layout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.cinema-guide-content__list {
-  max-width: 65%;
-  width: 100%;
 }
 
 .coments {
@@ -5385,6 +5391,26 @@ body {
   width: 80px;
 }
 
+.password-form {
+  box-sizing: border-box;
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.password-form__title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #C4094A;
+}
+
+.password-form .form-submit {
+  margin: 15px auto 0;
+}
+
 .profile-sidebar-menu__item {
   font-size: 1.125rem;
   position: relative;
@@ -6122,40 +6148,40 @@ body {
   }
 }
 
-.top-slider._events .top-slider-controls {
+.top-slider__item {
+  position: relative;
+}
+
+.top-slider__item._events .top-slider-controls {
   background-color: #8C529A;
 }
 
-.top-slider._events .top-slider-content__category {
+.top-slider__item._events .top-slider-content__category {
   color: #8C529A;
 }
 
-.top-slider._news .top-slider-controls {
+.top-slider__item._news .top-slider-controls {
   background-color: #EF3679;
 }
 
-.top-slider._news .top-slider-content__category {
+.top-slider__item._news .top-slider-content__category {
   color: #EF3679;
 }
 
-.top-slider._videos .top-slider-controls {
+.top-slider__item._videos .top-slider-controls {
   background-color: #008DD2;
 }
 
-.top-slider._videos .top-slider-content__category {
+.top-slider__item._videos .top-slider-content__category {
   color: #008DD2;
 }
 
-.top-slider._dining .top-slider-controls {
+.top-slider__item._dining .top-slider-controls {
   background-color: #EF7F1A;
 }
 
-.top-slider._dining .top-slider-content__category {
+.top-slider__item._dining .top-slider-content__category {
   color: #EF7F1A;
-}
-
-.top-slider__item {
-  position: relative;
 }
 
 .top-slider__image {

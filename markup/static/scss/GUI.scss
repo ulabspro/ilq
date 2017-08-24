@@ -20,6 +20,11 @@
   &._inside {
     margin-top: 50px;
   }
+  &._forgot {
+    width: 100%;
+    max-width: 100%;
+    padding: 200px 0;
+  }
   &__layout {
     display: flex;
 
