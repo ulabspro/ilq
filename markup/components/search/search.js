@@ -1,5 +1,5 @@
 (function() {   
-    var cx = '!!!!!!!!!!!!!!!!!!!';
+    var cx = '001664710864087536692:9cupxf50wos';
     var gcse = document.createElement('script');
     gcse.type = 'text/javascript';
     gcse.async = true;
@@ -9,11 +9,11 @@
 })();
 
 window.onload = function(){
-  document.getElementById('googleSearch').placeholder = 'Search';
-  document.getElementById('googleSearch').style='';
+  document.getElementById('gsc-i-id1').placeholder = 'Search';
+  // document.getElementById('gsc-i-id1').style='';
 };
 
-document.getElementById('googleSearch').onblur = function() {
-  this.placeholder = 'Search';
-  this.style = '';
-};
+// document.getElementById('googleSearch').onblur = function() {
+//   this.placeholder = 'Search';
+//   this.style = '';
+// };

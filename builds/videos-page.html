@@ -29,6 +29,9 @@
             (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
         </script>
         <script src='https://www.google.com/recaptcha/api.js'></script>
+        <script>
+            (function() {var cx = '001664710864087536692:9cupxf50wos';var gcse = document.createElement('script');gcse.type = 'text/javascript';gcse.async = true;gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gcse, s);})();
+        </script>
     </head>
 
     <body>
@@ -130,14 +133,7 @@
                         </div>
                     </div>
                     <div class="search">
-                        <form action="/search" id="cse-search-box" class="search__form">
-                            <input type="hidden" name="cx" value="">
-                            <input type="hidden" name="cof" value="FORID:10">
-                            <input type="hidden" name="ie" value="UTF-8">
-                            <input type="text" name="q" size="100" id="googleSearch" class="search__field">
-                            <input type="submit" name="sa" value="" class="search__submit">
-                            <script type="text/javascript" src="http://www.google.ru/coop/cse/brand?form=cse-search-box&amp;lang=ru"></script>
-                        </form>
+                        <gcse:searchbox-only></gcse:searchbox-only>
                     </div>
                 </div>
             </div>

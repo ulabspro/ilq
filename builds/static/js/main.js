@@ -13154,7 +13154,16 @@ e.prototype.unloadTech_=function(){var t=this;Tr.names.forEach(function(e){var n
 
 
 
+$('.article-meta-button._print').on('click', function () {
+  $("#printarea").show();
+  window.print();
+});
 
+$('.article-meta-button._email').on('click', function () {
+  var url = window.location.href;
+  var signature = '%0A%0A%0A -- Shared by ILoveQatar.net';
+  window.location.href = 'mailto:?subject=subject&body='+ url + signature;
+});
 
 
 
@@ -13192,7 +13201,7 @@ $('.mask, .jsModalClose').click(function (e) {
 
 
 (function() {   
-    var cx = '!!!!!!!!!!!!!!!!!!!';
+    var cx = '001664710864087536692:9cupxf50wos';
     var gcse = document.createElement('script');
     gcse.type = 'text/javascript';
     gcse.async = true;
@@ -13202,14 +13211,14 @@ $('.mask, .jsModalClose').click(function (e) {
 })();
 
 window.onload = function(){
-  document.getElementById('googleSearch').placeholder = 'Search';
-  document.getElementById('googleSearch').style='';
+  document.getElementById('gsc-i-id1').placeholder = 'Search';
+  // document.getElementById('gsc-i-id1').style='';
 };
 
-document.getElementById('googleSearch').onblur = function() {
-  this.placeholder = 'Search';
-  this.style = '';
-};
+// document.getElementById('googleSearch').onblur = function() {
+//   this.placeholder = 'Search';
+//   this.style = '';
+// };
 
 
 

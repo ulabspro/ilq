@@ -17,6 +17,9 @@
   background-color: $white;
 
   @extend .wrapper;
+  @media print {
+    padding: 0;
+  }
   &._inside {
     margin-top: 50px;
   }
@@ -24,6 +27,9 @@
     width: 100%;
     max-width: 100%;
     padding: 200px 0;
+
+    background: url(%=static=%general/forgot.jpg) no-repeat center;
+    background-size: cover;
   }
   &__layout {
     display: flex;
@@ -39,10 +45,19 @@
 
       flex-wrap: wrap;
     }
+    @media print {
+      padding: 0;
+    }
   }
   &__content {
     width: 100%;
     max-width: 825px;
+    @media print {
+      max-width: 100%;
+      img {
+        width: 100%;
+      }
+    }
   }
   &__sidebar {
     width: 100%;
@@ -50,6 +65,9 @@
     padding-top: 25px;
     @media screen and (max-width: 760px) {
       max-width: 100%;
+    }
+    @media print {
+      display: none;
     }
   }
 }
@@ -78,6 +96,9 @@
 
   justify-content: flex-start;
   align-items: center;
+  @media print {
+    display: none;
+  }
   &__item {
     font-size: rem-calc(14);
 

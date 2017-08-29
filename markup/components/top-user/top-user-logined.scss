@@ -7,6 +7,9 @@
 
   justify-content: flex-start;
   align-items: center;
+  @media print {
+    display: none;
+  }
   &__avatar {
     margin-right: 15px;
     img {

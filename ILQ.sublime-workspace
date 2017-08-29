@@ -4,16 +4,16 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-indent"
+			],
+			[
 				"pad",
 				"padding"
 			],
 			[
 				"margin",
 				"margin-top"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"padd",
@@ -520,20 +520,30 @@
 	"buffers":
 	[
 		{
-			"file": "markup/components/top-slider/top-slider.scss",
+			"file": "markup/components/search/search.js",
 			"settings":
 			{
-				"buffer_size": 3762,
+				"buffer_size": 606,
 				"encoding": "UTF-8",
-				"line_ending": "CR"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!-- Begin MailChimp Signup Form -->\n<link href=\"//cdn-images.mailchimp.com/embedcode/classic-10_7.css\" rel=\"stylesheet\" type=\"text/css\">\n<style type=\"text/css\">\n    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }\n    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.\n       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */\n</style>\n<div id=\"mc_embed_signup\">\n<form action=\"//iloveqatar.us1.list-manage.com/subscribe/post?u=e9f0f67db228cda0f89addf6e&id=c994ef2dc2\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n    <div id=\"mc_embed_signup_scroll\">\n    <h2>Subscribe to our mailing list</h2>\n<div class=\"indicates-required\"><span class=\"asterisk\">*</span> indicates required</div>\n<div class=\"mc-field-group\">\n    <label for=\"mce-EMAIL\">Email Address  <span class=\"asterisk\">*</span>\n</label>\n    <input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\">\n</div>\n\n\n    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\">\n        <input type=\"text\" name=\"b_e9f0f67db228cda0f89addf6e_c994ef2dc2\" tabindex=\"-1\" value=\"\"></div>\n        <input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\"></div>\n    </div>\n</form>\n</div>\n<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='dropdown';fnames[3]='MMERGE3';ftypes[3]='text';fnames[7]='MMERGE7';ftypes[7]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>\n<!--End mc_embed_signup-->",
+			"file": "markup/components/search/search.jade",
 			"settings":
 			{
-				"buffer_size": 1992,
+				"buffer_size": 578,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/search/search.scss",
+			"settings":
+			{
+				"buffer_size": 1424,
+				"encoding": "UTF-8",
+				"line_ending": "CR"
 			}
 		}
 	],
@@ -610,19 +620,29 @@
 	[
 		"/Users/extiser/git/1studio/iloveqatar/markup",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/head",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/search",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/head/head.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/password-form/password-form.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/profile/profile.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/dining-page.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/dining-page/dining-page.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/dining-page/dining-page.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/layout.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/common.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/new-password.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/password-form/password-form.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/password-form/password-form.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/pages/layout.jade",
 		"/Users/extiser/git/1studio/iloveqatar/tars-config.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/restaurants-reviews.jade",
 		"/Users/extiser/git/1studio/iloveqatar/webpack.config.js",
@@ -631,7 +651,6 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/qatar-guide-page/qatar-guide-page.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-qatar-guide/top-qatar-guide.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-qatar-guide/top-qatar-guide.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/vars.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.scss",
@@ -644,7 +663,6 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-main/videos-main.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-main/videos-main.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-double/main-double.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.jade",
@@ -652,7 +670,6 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/advertise.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/index.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/dining-special.jade",
@@ -703,7 +720,6 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/paginate/paginate-second.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-full/top-full.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/edit-profile.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/profile/profile.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/profile/profile-sidebar.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/edit-profile/edit-profile.jade",
@@ -713,7 +729,6 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-select.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/head/head.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-news/top-news.scss",
@@ -740,11 +755,7 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe-sidebar.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/weather/weather.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/weather/weather.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-articles/main-articles.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/tabs/tabs.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/tabs/tabs.js",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/top-baner-right.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.js"
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-articles/main-articles.jade"
 	],
 	"find":
 	{
@@ -1037,24 +1048,84 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "markup/components/top-slider/top-slider.scss",
+					"file": "markup/components/search/search.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3762,
+						"buffer_size": 606,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								591,
-								591
+								478,
+								333
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/components/search/search.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "markup/components/search/search.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1027,
+								1027
 							]
 						],
 						"settings":
@@ -1065,39 +1136,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1868.0,
+						"translation.y": 1404.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1992,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1598,
-								1598
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 442.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

@@ -4,6 +4,9 @@
   text-align: center;
 
   background-color: #424242;
+  @media print {
+    display: none;
+  }
   &__wrapper {
     @extend .wrapper;
   }
