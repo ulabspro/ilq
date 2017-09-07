@@ -4,11 +4,15 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-indent"
+				"scroll",
+				"scrollDest"
 			],
 			[
 				"pad",
+				"padding-top"
+			],
+			[
+				"padd",
 				"padding"
 			],
 			[
@@ -16,8 +20,12 @@
 				"margin-top"
 			],
 			[
-				"padd",
-				"padding"
+				"body",
+				"bodyMsg"
+			],
+			[
+				"text",
+				"text-indent"
 			],
 			[
 				"te",
@@ -506,46 +514,11 @@
 			[
 				"visi",
 				"visible"
-			],
-			[
-				"Ca",
-				"Calibri-Bold"
-			],
-			[
-				"top-",
-				"top-menu"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "markup/components/search/search.js",
-			"settings":
-			{
-				"buffer_size": 606,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/components/search/search.jade",
-			"settings":
-			{
-				"buffer_size": 578,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/components/search/search.scss",
-			"settings":
-			{
-				"buffer_size": 1424,
-				"encoding": "UTF-8",
-				"line_ending": "CR"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -620,30 +593,56 @@
 	[
 		"/Users/extiser/git/1studio/iloveqatar/markup",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/head",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/search",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/sidebar",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/head/head.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/password-form/password-form.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/profile/profile.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/advertise.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/sidebar/sidebar.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/advertise.js",
+		"/Users/extiser/git/1studio/iloveqatar/tars-config.js",
+		"/Users/extiser/git/SVTEAM/sovets-2017/tars-config.js",
+		"/Users/extiser/git/1studio/iloveqatar/package.json",
+		"/Users/extiser/git/SVTEAM/sovets-2017/package.json",
+		"/Users/extiser/git/1studio/iloveqatar/markup/pages/layout.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/rocket/rocket.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/rocket/rocket.js",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-main/videos-main.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.js",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/data/data.js",
+		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/common.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-meta/article-meta.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-meta/article-meta.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-meta/article-meta.js",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/footer/footer.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/coments/coments.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/events-page/events-page.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/sidebar/sidebar.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user-logined.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/advertise.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.js",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/head/head.jade",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/password-form/password-form.scss",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/profile/profile.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/dining-page.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/dining-page/dining-page.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/dining-page/dining-page.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/pages/layout.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/common.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/new-password.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/password-form/password-form.jade",
-		"/Users/extiser/git/1studio/iloveqatar/tars-config.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/restaurants-reviews.jade",
 		"/Users/extiser/git/1studio/iloveqatar/webpack.config.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/qatar-guide.jade",
@@ -653,24 +652,15 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-qatar-guide/top-qatar-guide.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/vars.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-field.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-double/main-double.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/footer/footer.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe-footer.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/video-block/video-block-overlay.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-block/article-block.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-main/videos-main.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-main/videos-main.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-slider/top-slider.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-double/main-double.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/top-menu.js",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/header/header.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/advertise.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/index.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/dining-special.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/dining-special/dining-special.jade",
@@ -689,7 +679,6 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/dining-articles/dining-articles.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/paginate/paginate.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/dining.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu/data/data.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/buttons.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-page/news-page.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-page/news-page.jade",
@@ -698,10 +687,6 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/videos-page.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/events-page/events-page.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/coments/coments.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/coments/coments.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/events-page/events-page.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-meta/article-meta.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/article-meta/article-meta.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-page/videos-page.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/videos-page/videos-page.jade",
@@ -724,13 +709,11 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/edit-profile/edit-profile.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages/news-sub.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-user/top-user-logined.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-social.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/gui-form.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/modal/modal.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/gui-form/form-select.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/search/search.js",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-news/top-news.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-news/top-news.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/news-articles/news-articles.jade",
@@ -744,22 +727,12 @@
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/video-row/video-row.scss",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/video-row/video-row.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-full/top-full.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/advertise/advertise.jade",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components/footer/footer.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/sidebar/sidebar.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/recommend/recommend.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/recommend/recommend.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/sidebar/sidebar.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/stay-connected/stay-connected.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/stay-connected/stay-connected.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/subscribe/subscribe-sidebar.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/weather/weather.scss",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/weather/weather.jade",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/main-articles/main-articles.jade"
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/recommend/recommend.jade"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 72.0
 	},
 	"find_in_files":
 	{
@@ -775,6 +748,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"mask",
+			"content",
 			"rgba($gray, .5);",
 			".form-field__field",
 			".form-group",
@@ -900,9 +875,7 @@
 			".art-menu ul li",
 			"parent",
 			"paren",
-			"content-row-l",
-			"content-row-f",
-			"content-row2"
+			"content-row-l"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1048,100 +1021,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "markup/components/search/search.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 606,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								478,
-								333
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "markup/components/search/search.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 578,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								35
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "markup/components/search/search.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1424,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1027,
-								1027
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1404.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],

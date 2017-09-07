@@ -15,10 +15,124 @@ mixin profile-sidebar(data)
 
 mixin edit-profile()
   .edit-profile
+    h1 Edit profile
     .edit-profile-top
       .edit-profile-top-avatar
-        img(src="http://via.placeholder.com/160x160&text=Avatar").edit-profile-top-avatar__image          
+        img(src="http://via.placeholder.com/160x160&text=Avatar").edit-profile-top-avatar__image
+        .edit-profile-top-avatar__change
+          input(type="file")
+
       .edit-profile-top-content
         .edit-profile-top-content__row
-          span Username
-          +form-field('Dilya', 'text')
+          span Username:
+          +form-field('Dilya', 'text', false, 'Dilya')
+        .edit-profile-top-content__row
+          span E-mail address:
+          +form-field('Dilya', 'text', false, 'example@example.com')
+        .edit-profile-top-content__row
+          span Time zone:
+          +form-select('Current time zone', ['Qatar', 'Tashkent'])
+        //- .edit-profile-top-content__row
+        //-   span Add your signature:
+        //-   +form-textarea(' ', false, ' ')
+
+    .edit-profile-end
+      .edit-profile-end__column
+        .edit-profile-end__title General
+
+        .edit-profile-end__row
+          span First name
+          .edit-profile-end__inside-row
+            +form-field('Please enter your first name', 'text', false, '')
+
+        .edit-profile-end__row
+          span Last name
+          .edit-profile-end__inside-row
+            +form-field('Please enter your last name', 'text', false, '')
+
+        .edit-profile-end__row
+          span Birthday
+          .edit-profile-end__inside-row._birthday
+            +form-select(' ', ['Day'])
+            +form-select(' ', ['Month'])
+            +form-select(' ', ['Year'])
+
+        .edit-profile-end__row
+          span Gender
+          .edit-profile-end__inside-row._gender
+            +form-checkbox('Male')
+            +form-checkbox('Female')
+
+        .edit-profile-end__row
+          span Country
+          .edit-profile-end__inside-row
+            +form-select('Choose your country', ['Qatar', 'Tashkent'])
+
+        .edit-profile-end__row
+          span Phone
+          .edit-profile-end__inside-row
+            +form-field('Please enter your phone number', 'text', false, '')
+
+        .edit-profile-end__row
+          span Job title
+          .edit-profile-end__inside-row
+            +form-field('Please enter your job title', 'text', false, '')
+
+      .edit-profile-end__column
+        .edit-profile-end__title Your external links
+        
+        .edit-profile-end__row
+          span Facebook
+          .edit-profile-end__inside-row
+            +form-field('Paste your link here', 'text', false, '')
+
+        .edit-profile-end__row
+          span Google+
+          .edit-profile-end__inside-row
+            +form-field('Paste your link here', 'text', false, '')
+
+        .edit-profile-end__row
+          span Twitter
+          .edit-profile-end__inside-row
+            +form-field('Paste your link here', 'text', false, '')
+
+        .edit-profile-end__row
+          span Youtube
+          .edit-profile-end__inside-row
+            +form-field('Paste your link here', 'text', false, '')
+
+        .edit-profile-end__row
+          span Instagram
+          .edit-profile-end__inside-row
+            +form-field('Paste your link here', 'text', false, '')
+
+        .edit-profile-end__row
+          span Snapchat
+          .edit-profile-end__inside-row
+            +form-field('Paste your link here', 'text', false, '')
+
+        .edit-profile-end__row
+          span LinkedIn
+          .edit-profile-end__inside-row
+            +form-field('Paste your link here', 'text', false, '')
+
+    .edit-profile-bottom
+      input(type="submit" value="Save changes").form-submit
+
+mixin account-settings()
+  .account-settings
+    h1 Account settings
+
+    .account-settings-block
+      .account-settings-block__title Change password
+
+      .account-settings-block__column
+        span Your current password
+        +form-field('Please enter your current password', 'password', false, '')
+
+      .account-settings-block__column
+        span Type a new password
+        +form-field('Please type a new password', 'password', false, '')
+
+    .edit-profile-bottom
+      input(type="submit" value="Save changes").form-submit

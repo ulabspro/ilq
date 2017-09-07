@@ -1,7 +1,7 @@
-mixin form-field(placeholder, type, hasError)
+mixin form-field(placeholder, type, hasError, value)
   - var modiffer = attributes.class || ''
   .form-field(class="#{modiffer}")
-    input(type="#{type}" value="" placeholder="#{placeholder}").form-field__item
+    input(type="#{type}" value="#{value}" placeholder="#{placeholder}").form-field__item
     - if (hasError)
       .form-field__error!=hasError
 
@@ -12,3 +12,16 @@ mixin form-select(placeholder, list)
       option=placeholder
       for item in list
         option=item
+
+mixin form-textarea(placeholder, hasError, value)
+  - var modiffer = attributes.class || ''
+  .form-textarea(class="#{modiffer}")
+    textarea(placeholder="#{placeholder}" rows="4").form-textarea__item=value
+    - if (hasError)
+      .form-field__error!=hasError
+
+mixin form-checkbox(value)
+  - var modiffer = attributes.class || ''
+  label.form-checkbox(class="#{modiffer}")
+    input(type="checkbox" value="").form-checkbox__input
+    span=value

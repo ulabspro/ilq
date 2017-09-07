@@ -11,6 +11,16 @@
   }
 }
 
+.top-page-image {
+  overflow-y: hidden;
+
+  max-height: 500px;
+  margin-top: 15px;
+  img {
+    width: 100%;
+  }
+}
+
 .page {
   padding: 15px 0;
 
@@ -93,6 +103,8 @@
 
 .content-meta {
   display: flex;
+
+  margin-bottom: 20px;
 
   justify-content: flex-start;
   align-items: center;

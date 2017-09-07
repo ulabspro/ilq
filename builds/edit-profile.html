@@ -44,29 +44,24 @@
                     <div class="advertise join-team">
                         <img src="http://via.placeholder.com/400x110&amp;text=BANNER">
                     </div>
-                    <form method="" action="" class="top-user form">
-                        <div class="top-user__mobile"></div>
-                        <div class="top-user__list">
-                            <div class="top-user__column _left">
-                                <div class="form-field _iconed _username">
-                                    <input type="text" value="" placeholder="Username" class="form-field__item">
-                                </div>
-                                <div class="form-field _iconed _password">
-                                    <input type="password" value="" placeholder="Password" class="form-field__item">
-                                </div>
-                                <div class="top-user-social">
-                                    <div class="top-user-social__title">Sign in with</div>
-                                    <div class="top-user-social-buttons"><a href="#" title="" class="top-user-social-buttons__item _fb">Facebook</a><a href="#" title="" class="top-user-social-buttons__item _gp">Google+</a><a href="#" title="" class="top-user-social-buttons__item _tw">Twitter</a>
-                                    </div>
-                                </div>
+                    <div class="top-user-logined">
+                        <div class="top-user-logined__avatar">
+                            <img src="http://via.placeholder.com/55x55&amp;text=A">
+                        </div>
+                        <div class="top-user-logined__content">
+                            <div class="top-user-logined__name">User <span>(users@mail.com)</span>
                             </div>
-                            <div class="top-user__column _right">
-                                <input type="submit" value="Sign In" class="top-user__submit">
-                                <div class="top-user__register">or<a href="#" title="" data-modal="#registration" class="jsModalCall">Register</a>
-                                </div><a href="#" title="" class="top-user__forgot-password">Forgot password?</a>
+                            <div class="top-user-logined__points">1257 points<a href="#" title="">(Show me on leaderboard)</a>
+                            </div>
+                            <div class="top-user-logined-control"><a href="#" title="" class="top-user-logined-control__item _notifications">Notifications</a><a href="#" title="" class="top-user-logined-control__item _messages">Messages</a>
                             </div>
                         </div>
-                    </form>
+                        <div class="top-user-logined-menu">
+                            <div class="top-user-logined-menu__icon"></div>
+                            <div class="top-user-logined-menu-dropdown"><a href="#" title="" class="top-user-logined-menu-dropdown__item _profile">Edit profile</a><a href="#" title="" class="top-user-logined-menu-dropdown__item _settings">Account settings</a><a href="#" title="" class="top-user-logined-menu-dropdown__item _logout">Log out</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="header__row _bottom">
                     <div class="top-menu">
@@ -107,25 +102,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="top-menu__item"><a href="/classifieds.html" title="Classifieds" class="_classifieds top-menu__link">Classifieds</a>
-                                <div class="top-menu-sublist _classifieds">
-                                    <div class="top-menu-sublist__wrapper"><a href="#" title="CARS &amp; BIKES" class="top-menu-sublist__item">CARS &amp; BIKES</a><a href="#" title="PROPERTY" class="top-menu-sublist__item">PROPERTY</a><a href="#" title="JOBS &amp; SERVICES" class="top-menu-sublist__item">JOBS &amp; SERVICES</a>
-                                        <a
-                                        href="#" title="EVERYTHING ELSE" class="top-menu-sublist__item">EVERYTHING ELSE</a>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="top-menu__item"><a href="/qatar-guide.html" title="Qatar guide" class="_qatar-guide top-menu__link">Qatar guide</a>
                                 <div class="top-menu-sublist _qatar-guide">
                                     <div class="top-menu-sublist__wrapper"><a href="#" title="ABOUT QATAR" class="top-menu-sublist__item">ABOUT QATAR</a><a href="#" title="COMING TO QATAR" class="top-menu-sublist__item">COMING TO QATAR</a><a href="#" title="THINGS TO DO IN QATAR" class="top-menu-sublist__item">THINGS TO DO IN QATAR</a>
                                         <a
                                         href="#" title="GETTING AROUND QATAR" class="top-menu-sublist__item">GETTING AROUND QATAR</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="top-menu__item"><a href="/сompetitions.html" title="Competitions" class="_сompetitions top-menu__link">Competitions</a>
-                                <div class="top-menu-sublist _сompetitions">
-                                    <div class="top-menu-sublist__wrapper"><a href="#" title="Competitions sub" class="top-menu-sublist__item">Competitions sub</a>
                                     </div>
                                 </div>
                             </div>
@@ -151,17 +132,166 @@
                 </div>
                 <div class="page__content">
                     <div class="edit-profile">
+                        <h1>Edit profile</h1>
                         <div class="edit-profile-top">
                             <div class="edit-profile-top-avatar">
                                 <img src="http://via.placeholder.com/160x160&amp;text=Avatar" class="edit-profile-top-avatar__image">
+                                <div class="edit-profile-top-avatar__change">
+                                    <input type="file">
+                                </div>
                             </div>
                             <div class="edit-profile-top-content">
-                                <div class="edit-profile-top-content__row"><span>Username</span>
+                                <div class="edit-profile-top-content__row"><span>Username:</span>
                                     <div class="form-field">
-                                        <input type="text" value="" placeholder="Dilya" class="form-field__item">
+                                        <input type="text" value="Dilya" placeholder="Dilya" class="form-field__item">
+                                    </div>
+                                </div>
+                                <div class="edit-profile-top-content__row"><span>E-mail address:</span>
+                                    <div class="form-field">
+                                        <input type="text" value="example@example.com" placeholder="Dilya" class="form-field__item">
+                                    </div>
+                                </div>
+                                <div class="edit-profile-top-content__row"><span>Time zone:</span>
+                                    <div class="form-select">
+                                        <select class="form-select__list">
+                                            <option>Current time zone</option>
+                                            <option>Qatar</option>
+                                            <option>Tashkent</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="edit-profile-end">
+                            <div class="edit-profile-end__column">
+                                <div class="edit-profile-end__title">General</div>
+                                <div class="edit-profile-end__row"><span>First name</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Please enter your first name" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Last name</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Please enter your last name" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Birthday</span>
+                                    <div class="edit-profile-end__inside-row _birthday">
+                                        <div class="form-select">
+                                            <select class="form-select__list">
+                                                <option></option>
+                                                <option>Day</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-select">
+                                            <select class="form-select__list">
+                                                <option></option>
+                                                <option>Month</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-select">
+                                            <select class="form-select__list">
+                                                <option></option>
+                                                <option>Year</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Gender</span>
+                                    <div class="edit-profile-end__inside-row _gender">
+                                        <label class="form-checkbox">
+                                            <input type="checkbox" value="" class="form-checkbox__input"><span>Male</span>
+                                        </label>
+                                        <label class="form-checkbox">
+                                            <input type="checkbox" value="" class="form-checkbox__input"><span>Female</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Country</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-select">
+                                            <select class="form-select__list">
+                                                <option>Choose your country</option>
+                                                <option>Qatar</option>
+                                                <option>Tashkent</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Phone</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Please enter your phone number" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Job title</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Please enter your job title" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="edit-profile-end__column">
+                                <div class="edit-profile-end__title">Your external links</div>
+                                <div class="edit-profile-end__row"><span>Facebook</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Paste your link here" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Google+</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Paste your link here" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Twitter</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Paste your link here" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Youtube</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Paste your link here" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Instagram</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Paste your link here" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>Snapchat</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Paste your link here" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="edit-profile-end__row"><span>LinkedIn</span>
+                                    <div class="edit-profile-end__inside-row">
+                                        <div class="form-field">
+                                            <input type="text" value="" placeholder="Paste your link here" class="form-field__item">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="edit-profile-bottom">
+                            <input type="submit" value="Save changes" class="form-submit">
                         </div>
                     </div>
                 </div>
@@ -175,7 +305,7 @@
                         </div>
                         <form method="" action="" class="subscribe-footer-form">
                             <div class="form-field _subscribe">
-                                <input type="email" value="" placeholder="E-mail" class="form-field__item">
+                                <input type="email" value="undefined" placeholder="E-mail" class="form-field__item">
                             </div>
                             <input type="submit" value="Subscribe me" class="subscribe-footer-form__submit">
                         </form>
@@ -204,22 +334,22 @@
             <div class="modal__close jsModalClose"></div>
             <form method="" action="" class="form">
                 <div class="form-field _modal-iconed _modal-username _error">
-                    <input type="text" value="" placeholder="Username" class="form-field__item">
+                    <input type="text" value="undefined" placeholder="Username" class="form-field__item">
                     <div class="form-field__error">Username is already taken</div>
                 </div>
                 <div class="form-field _modal-iconed _modal-email _error">
-                    <input type="email" value="" placeholder="Email" class="form-field__item">
+                    <input type="email" value="undefined" placeholder="Email" class="form-field__item">
                     <div class="form-field__error">This e-mail was already used for registration <a href="#" title="">Restore account</a>
                     </div>
                 </div>
                 <div class="form-field _modal-iconed _modal-password">
-                    <input type="password" value="" placeholder="Password" class="form-field__item">
+                    <input type="password" value="undefined" placeholder="Password" class="form-field__item">
                 </div>
                 <div class="form-field _modal-iconed _modal-password">
-                    <input type="password" value="" placeholder="Confirm password" class="form-field__item">
+                    <input type="password" value="undefined" placeholder="Confirm password" class="form-field__item">
                 </div>
                 <div class="form-field _modal-iconed _modal-phone">
-                    <input type="text" value="" placeholder="Mobile number (optional)" class="form-field__item">
+                    <input type="text" value="undefined" placeholder="Mobile number (optional)" class="form-field__item">
                 </div>
                 <div class="form-select _modal-iconed _modal-timezone">
                     <select class="form-select__list _modal-iconed _modal-timezone">
@@ -247,6 +377,7 @@
             </div>
         </div>
         <div class="mask"></div>
+        <div class="rocket"></div>
         <script src="static/js/main.min.js"></script>
     </body>
 

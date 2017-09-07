@@ -1,0 +1,12 @@
+extends ./layout.jade
+
+block header
+  +header._home
+
+block content
+  .page._edit-profile
+    .page__layout
+      .page__sidebar
+        +profile-sidebar
+      .page__content
+        +account-settings

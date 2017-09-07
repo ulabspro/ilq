@@ -1,0 +1,40 @@
+.account-settings {
+  padding-top: 20px;
+  h1 {
+    margin-top: 0;
+
+    color: $rose;
+  }
+}
+
+.account-settings-block {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  &__title {
+    font-family: $Bold;
+    font-size: rem-calc(18);
+
+    width: 100%;
+    margin-bottom: 30px;
+
+    color: $rose;
+  }
+  &__column {
+    width: 48%;
+    span {
+      font-size: rem-calc(14);
+
+      display: block;
+
+      margin-bottom: 10px;
+    }
+    .form-field {
+      &__item {
+        padding-left: 10px;
+      }
+    }
+  }
+}

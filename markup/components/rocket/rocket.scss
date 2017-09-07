@@ -1,0 +1,20 @@
+.rocket {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+
+  visibility: hidden;
+
+  opacity: 0;
+
+  @include bg($rocket);
+  @include transition;
+  &:hover {
+    opacity: .9;
+  }
+  &._active {
+    visibility: visible;
+
+    opacity: 1;
+  }
+}

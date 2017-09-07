@@ -25,7 +25,8 @@ module.exports = {
         "jsPathsToConcatBeforeModulesJs": [
             'node_modules/jquery/dist/jquery.js',
             'node_modules/slick-carousel/slick/slick.js',
-            'node_modules/video.js/dist/video.min.js'
+            'node_modules/video.js/dist/video.min.js',
+            'node_modules/jquery.sticky/jquery.sticky.js'
         ],
         "lintJsCodeBeforeModules": false,
         "jsPathsToConcatAfterModulesJs": [],

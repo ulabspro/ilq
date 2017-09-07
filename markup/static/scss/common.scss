@@ -8,4 +8,7 @@ body {
 
   background: #d6d6d6 url(%=static=%general/bg.png);
   background-size: 10%;
+  &._active {
+    overflow: hidden;
+  }
 }

@@ -70,20 +70,20 @@ data = {
         ]
       }
     },
-    {
-      title: 'Classifieds',
-      slug: '/classifieds.html',
-      page: 'classifieds',
-      modiffer: '_classifieds',
-      sublist: {
-        items: [
-          'CARS & BIKES',
-          'PROPERTY',
-          'JOBS & SERVICES',
-          'EVERYTHING ELSE'
-        ],
-      }
-    },
+    // {
+    //   title: 'Classifieds',
+    //   slug: '/classifieds.html',
+    //   page: 'classifieds',
+    //   modiffer: '_classifieds',
+    //   sublist: {
+    //     items: [
+    //       'CARS & BIKES',
+    //       'PROPERTY',
+    //       'JOBS & SERVICES',
+    //       'EVERYTHING ELSE'
+    //     ],
+    //   }
+    // },
     {
       title: 'Qatar guide',
       slug: '/qatar-guide.html',
@@ -98,16 +98,16 @@ data = {
         ],
       }
     },
-    {
-      title: 'Competitions',
-      slug: '/сompetitions.html',
-      page: 'сompetitions',
-      modiffer: '_сompetitions',
-      sublist: {
-        items: [
-          'Competitions sub',
-        ],
-      }
-    }
+    // {
+    //   title: 'Competitions',
+    //   slug: '/сompetitions.html',
+    //   page: 'сompetitions',
+    //   modiffer: '_сompetitions',
+    //   sublist: {
+    //     items: [
+    //       'Competitions sub',
+    //     ],
+    //   }
+    // }
   ]
 }

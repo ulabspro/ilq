@@ -1,12 +1,12 @@
 mixin sidebar(data)
   aside.sidebar
     .sidebar__widget
-      .sidebar-submit
-        a(href="#" title="").sidebar-submit__item._news Add News
-        a(href="#" title="").sidebar-submit__item._events Add Event
+      //- .sidebar-submit
+      //-   a(href="#" title="").sidebar-submit__item._news Add News
+      //-   a(href="#" title="").sidebar-submit__item._events Add Event
     
     .sidebar__widget
-      +sidebar-baner
+      +sidebar-baner-small
 
     .sidebar__widget
       +subscribe-sidebar
@@ -18,4 +18,5 @@ mixin sidebar(data)
       +recommend
 
     .sidebar__widget
-      +sidebar-baner-small
+      +sidebar-baner
+      
