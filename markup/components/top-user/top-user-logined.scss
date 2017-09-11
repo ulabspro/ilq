@@ -10,12 +10,22 @@
   @media print {
     display: none;
   }
+  @media screen and (max-width: 760px) {
+    padding-right: 0;
+  }
   &__avatar {
     margin-right: 15px;
+    @media screen and (max-width: 760px) {
+      margin-right: 0;
+    }
     img {
       display: block;
 
       border-radius: 50%;
+      @media screen and (max-width: 760px) {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
   &__name {
@@ -27,11 +37,17 @@
       font-family: $Regular;
       font-size: rem-calc(14);
     }
+    @media screen and (max-width: 760px) {
+      display: none;
+    }
   }
   &__points {
     font-size: rem-calc(14);
 
     color: $rose;
+    @media screen and (max-width: 760px) {
+      display: none;
+    }
     a {
       font-size: rem-calc(13);
 
@@ -52,6 +68,9 @@
 
   justify-content: flex-start;
   align-items: center;
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
   &__item {
     font-size: rem-calc(13);
 
@@ -89,6 +108,9 @@
   position: absolute;
   top: 3px;
   right: 0;
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
   &__icon {
     position: relative;
     z-index: 100;

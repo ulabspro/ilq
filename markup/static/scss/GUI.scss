@@ -75,6 +75,7 @@
     padding-top: 25px;
     @media screen and (max-width: 760px) {
       max-width: 100%;
+      padding-top: 0;
     }
     @media print {
       display: none;

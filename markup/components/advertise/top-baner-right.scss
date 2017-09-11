@@ -1,5 +1,10 @@
 .top-baner-right {
   position: relative;
+  img {
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
   &__content {
     position: absolute;
     right: 30px;

@@ -14,3 +14,7 @@ $slickElement.slick({
     prevArrow: $('.jsTopSliderLeft'),
     nextArrow: $('.jsTopSliderRight')
 });
+
+$('.top-slider__image').hover(function () {
+  $(this).closest('.top-slider__item').find('.top-slider-content').toggleClass('_anactive');
+});
