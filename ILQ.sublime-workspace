@@ -519,6 +519,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/components/top-menu/top-menu.scss",
+			"settings":
+			{
+				"buffer_size": 5390,
+				"encoding": "UTF-8",
+				"line_ending": "CR"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,7 +602,7 @@
 	[
 		"/Users/extiser/git/1studio/iloveqatar/markup",
 		"/Users/extiser/git/1studio/iloveqatar/markup/components",
-		"/Users/extiser/git/1studio/iloveqatar/markup/components/header",
+		"/Users/extiser/git/1studio/iloveqatar/markup/components/top-menu",
 		"/Users/extiser/git/1studio/iloveqatar/markup/pages",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static",
 		"/Users/extiser/git/1studio/iloveqatar/markup/static/scss"
@@ -1020,8 +1029,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/components/top-menu/top-menu.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2744,
+								2744
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3682.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

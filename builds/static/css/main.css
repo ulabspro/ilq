@@ -5422,6 +5422,19 @@ body._active {
           align-items: center;
 }
 
+@media screen and (max-width: 760px) {
+  .most-popular-videos__content {
+    display: block;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .most-popular-videos__content .video-block-overlay {
+    margin-bottom: 10px;
+  }
+}
+
 .most-popular-videos-top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5503,6 +5516,24 @@ body._active {
   text-decoration: underline;
 }
 
+.news-page h1 {
+  color: #C4094A;
+}
+
+.news-page h2 {
+  color: #C4094A;
+  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+}
+
+.news-page .content-meta {
+  color: #C4094A;
+}
+
+.news-page .content-meta__item:after {
+  background-color: #C4094A;
+}
+
 .paginate {
   padding: 40px 25px;
 }
@@ -5546,24 +5577,6 @@ body._active {
   width: 80px;
 }
 
-.news-page h1 {
-  color: #C4094A;
-}
-
-.news-page h2 {
-  color: #C4094A;
-  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
-  font-size: 0.875rem;
-}
-
-.news-page .content-meta {
-  color: #C4094A;
-}
-
-.news-page .content-meta__item:after {
-  background-color: #C4094A;
-}
-
 .password-form {
   box-sizing: border-box;
   max-width: 500px;
@@ -5583,10 +5596,6 @@ body._active {
 
 .password-form .form-submit {
   margin: 15px auto 0;
-}
-
-.qatar-guide-page h1, .qatar-guide-page h2 {
-  color: #108971;
 }
 
 .account-settings {
@@ -5900,6 +5909,10 @@ body._active {
 
 .edit-profile-bottom .form-submit {
   padding: 10px 30px;
+}
+
+.qatar-guide-page h1, .qatar-guide-page h2 {
+  color: #108971;
 }
 
 .recommend {
@@ -6364,6 +6377,12 @@ td.gsc-clear-button > div.gsc-clear-button {
 
 .top-full {
   padding: 25px 25px 10px;
+}
+
+@media screen and (max-width: 760px) {
+  .top-full {
+    padding: 25px 15px 0;
+  }
 }
 
 .top-menu {
@@ -6850,7 +6869,7 @@ td.gsc-clear-button > div.gsc-clear-button {
   .top-slider-content {
     z-index: 5;
     display: block;
-    padding: 25px;
+    padding: 15px;
   }
 }
 
@@ -7463,6 +7482,12 @@ td.gsc-clear-button > div.gsc-clear-button {
   width: 100%;
   max-width: 260px;
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 760px) {
+  .video-block {
+    max-width: 100%;
+  }
 }
 
 .video-block__play {
