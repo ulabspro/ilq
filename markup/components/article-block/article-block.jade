@@ -12,6 +12,12 @@ mixin article-block(data)
       .article-block__text=data.text
 
       .article-block-meta
+        .top-slider-content-event
+          .top-slider-content-event__item._place Doha Exhibition and Convention Center, Doha
+          .top-slider-content-event__item._date 18-22 May
+          .top-slider-content-event__item._time 12:00
+
+      .article-block-meta
         .article-block-meta-author
           .article-block-meta-author__avatar
             img(src="http://via.placeholder.com/20x20&text=Ava")
@@ -19,6 +25,7 @@ mixin article-block(data)
         .article-block-meta__item._date 24 March 2017
         .article-block-meta__item._views 1250
         .article-block-meta__item._shares 956
+
 
 mixin article-overlay(data)
   - var modiffer = attributes.class || ''

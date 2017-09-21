@@ -4115,6 +4115,18 @@ body._active {
           align-items: center;
 }
 
+.article-block-meta .top-slider-content-event {
+  margin-top: -5px;
+}
+
+.article-block-meta .top-slider-content-event__item {
+  font-size: 0.8125rem;
+}
+
+.article-block-meta .top-slider-content-event__item:after {
+  display: none;
+}
+
 .article-block-meta__item {
   position: relative;
   margin-right: 12px;
