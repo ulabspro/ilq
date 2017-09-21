@@ -5485,6 +5485,7 @@ body._active {
   left: 10px;
   text-transform: uppercase;
   color: #EF3679;
+  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
 }
 
 .news-block__image {
@@ -5497,10 +5498,9 @@ body._active {
   top: 0;
   display: block;
   width: 100%;
-  height: 50px;
+  height: 45px;
   content: '';
-  background: -webkit-linear-gradient(top, white 0%, rgba(255, 255, 255, 0) 100%);
-  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .news-block__link {
