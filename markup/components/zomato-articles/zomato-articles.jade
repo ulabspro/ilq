@@ -1,0 +1,11 @@
+mixin zomato-articles(data)
+  .zomato-articles
+    - for (var i = 0; i < 5; i++)
+      - var data = {paginate: {start: 'Dining', end: 'Restaurant guide'}, title: 'ROTI & BOTI', place: 'Umm Ghuwailina, Doha', text: 'Showroom #10, Al Emadi Suites, Ras Abu Aboud Street, Umm Ghuwailina, Doha', cuisines: 'Indian', cost: 'QAR160', phone: '44440194, 44440194'};
+      +article-zomato(data)._zomato
+
+    +baner-list()
+
+    - for (var i = 0; i < 5; i++)
+      - var data = {paginate: {start: 'Dining', end: 'Restaurant guide'}, title: 'ROTI & BOTI', place: 'Umm Ghuwailina, Doha', text: 'Showroom #10, Al Emadi Suites, Ras Abu Aboud Street, Umm Ghuwailina, Doha', cuisines: 'Indian', cost: 'QAR160', phone: '44440194'};
+      +article-zomato(data)._zomato

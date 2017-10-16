@@ -1,0 +1,1 @@
+.zomato-page {  h1 {    color: $orange;  }  h2 {    color: $orange;  }  &__item {    margin-top: 15px;    margin-bottom: 15px;    font-family: $Bold;    span {      display: block;    }  }  &__powered {    margin-top: 20px;    margin-bottom: 40px;  }  &__photo {    img {      width: 100%;    }  }}

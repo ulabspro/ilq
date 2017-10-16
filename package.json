@@ -15,7 +15,8 @@
     "video.js": "^6.2.4"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "select2": "^4.0.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

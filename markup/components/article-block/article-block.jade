@@ -55,3 +55,25 @@ mixin article-filter(data)
         - if (page == 'dining')
           .article-filter-meta__item._date 12:00 - 00:30
           .article-filter-meta__item._cost QR335-390
+
+mixin article-zomato(data)
+  - var modiffer = attributes.class || ''
+  .article-zomato.article-block(class="#{modiffer}")
+    .article-block__image
+      img(src="http://via.placeholder.com/300x190&text=ArticleImagePreview")
+    .article-block__content
+      .article-zomato__left
+        .article-block-bread
+          a(href="#" title="").article-block-bread__item=data.paginate.start
+          a(href="#" title="").article-block-bread__item=data.paginate.end
+        a(href="#" title="").article-block__title=data.title
+        .article-zomato__place=data.place
+        .article-zomato__text=data.text
+        .article-zomato__cuisines cuisines:
+          span #{data.cuisines}
+        a(href="#" title="").article-zomato__link Get Directions
+      .article-zomato__right
+        .article-zomato__cost=data.cost
+          span cost for two
+        .article-zomato__phone(data-phone="#{data.phone}") Call
+

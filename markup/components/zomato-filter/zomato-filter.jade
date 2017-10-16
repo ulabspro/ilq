@@ -1,0 +1,143 @@
+mixin zomato-filter(data)
+  .zomato-filter
+    form(method="get" action="").zomato-filter__list
+      .zomato-filter__item
+        select(data-placeholder="Sort By" multiple="multiple").zomato-filter__select
+          option Cost - High to Low
+          option Cost - Low to High
+          option Recently Added
+      .zomato-filter__item
+        select(data-placeholder="Establishment" multiple="multiple").zomato-filter__select
+          option Quick Bites
+          option Casual Dining
+          option Bakeries
+          option Cafés
+          option Food Courts
+          option Dessert Parlor
+          option Cafeterias
+          option Kiosks
+          option Fine Dining
+      .zomato-filter__item
+        select(data-placeholder="Cuisine" multiple="multiple").zomato-filter__select
+          option Afghani
+          option African
+          option American
+          option Arabian
+          option Asian
+          option BBQ
+          option Bakery
+          option Bangladeshi
+          option Beverages
+          option Biryani
+          option Brazilian
+          option British
+          option Burger
+          option Cafe
+          option Cafeteria
+          option Cantonese
+          option Caribbean
+          option Charcoal
+          option Grill
+          option Chettinad
+          option Chinese
+          option Coffee and Tea
+          option Contemporary
+          option Continental
+          option Desserts
+          option Drinks
+          option Only Egyptian
+          option Ethiopian
+          option European
+          option Falafel
+          option Filipino
+          option Finger Food
+          option French
+          option German
+          option Greek
+          option Grill
+          option Healthy Food
+          option Hyderabadi
+          option Ice Cream
+          option Indian
+          option Indonesian
+          option International
+          option Italian
+          option Japanese
+          option Juices
+          option Kebab
+          option Kerala
+          option Khaleeji
+          option Korean
+          option Latin American
+          option Lebanese
+          option Lounge
+          option Maharashtrian
+          option Malaysian
+          option Mediterranean
+          option Mexican
+          option Middle Eastern
+          option Mongolian
+          option Moroccan
+          option Mughlai
+          option Nepalese
+          option North Indian
+          option Oriental
+          option Pakistani
+          option Persian
+          option Pizza
+          option Portuguese
+          option Salad
+          option Sandwich
+          option Seafood
+          option Snacks
+          option South Indian
+          option Spanish
+          option Sri Lankan
+          option Steak
+          option Street Food
+          option Sushi
+          option Syrian
+          option Tex-Mex
+          option Thai
+          option Turkish
+      .zomato-filter__item
+        select(data-placeholder="Location" multiple="multiple").zomato-filter__select
+          option Abu Hamour
+          option Ain Khalid
+          option Al Asmakh
+          option Al Aziziyah
+          option Al Doha Al Jadeeda
+          option Al Ghanim
+          option Al Gharafa
+          option Al Hilal
+          option Al Mansoura
+          option Al Muntazah
+          option Al Nasr
+          option Al Rayyan
+          option Al Sadd
+          option Al Salata
+          option Al Souq
+          option Al Waab
+          option Al Wakrah
+          option Barwa Village
+          option Bin Omran
+          option Dafna
+          option Fereej Bin Mahmoud
+          option Hamad International Airport
+          option Katara
+          option Madinat Khalifa
+          option Markhiya
+          option Mesaimeer
+          option Muaither
+          option Musheireb
+          option Najma
+          option Nuaija
+          option Old Airport Area
+          option Pearl Qatar
+          option Salwa Road
+          option Souq Waqif
+          option Umm Ghuwailina
+          option Umm Salal Mohammed
+          option Westbay
+      .zomato-filter__item
+        input(type="submit" value="Filter").zomato-filter__submit
